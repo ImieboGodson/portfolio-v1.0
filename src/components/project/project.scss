@@ -1,0 +1,78 @@
+.project {
+    height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #33332d;
+    box-shadow: 1px 3px #33332d;
+    transition: .5s ease;
+    cursor: pointer;
+    
+
+    .project-wrapper {
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .project-details-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .project-details-left {
+                display: flex;
+
+                .project-deco {
+                    margin-right: 70px;
+                    display: flex;
+                    align-items: center;
+    
+                    .line {
+                        width: 70px;
+                        height: 1px;
+                        background: #d8d8d8;
+                        // margin-top: 3rem;
+                        margin-right: .8rem;
+                    }
+    
+                    .project-number {
+                        font-size: 25px;
+                        font-weight: 500;
+                    }
+                }
+    
+                .project-details {
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+    
+                    .project-name {
+                        font-size: 35px;
+                        font-weight: 700;
+                    }
+    
+                    .project-type {
+                        margin-top: 10px;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .project-details-right {
+                display: flex;
+                align-items: center;
+
+                .project-btn {
+
+                }
+            }
+        }
+    }
+}
+
+.project:hover {
+    box-shadow: 5px 7px #33332d;
+}

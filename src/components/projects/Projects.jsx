@@ -1,5 +1,6 @@
 import './projects.scss';
 import { AiTwotoneFolderOpen } from "react-icons/ai";
+import ProjectsList from '../projectsList/ProjectsList';
 
 const Projects = () => {
     return (
@@ -10,10 +11,11 @@ const Projects = () => {
                     <p>FEATURED PROJECTS</p><span>-</span>
                 </div>
                 <div className='topmost-bigtext-wrapper'>
-                    <p className='topmost-bigtext'>Stuffs I've Worked On</p>
+                    <p className='topmost-bigtext'>Stuff I've Worked On</p>
                     <AiTwotoneFolderOpen className='folder-icon'/>
                 </div>
             </div>
+            <ProjectsList />
            </div>
         </div>
     )
