@@ -1,0 +1,91 @@
+
+
+.header {
+    position: fixed;
+    top: 0;
+    padding: 0 60px;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 100;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .logo-link {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #000;
+
+            .logo-wrapper {
+                position: relative;
+                padding: 6px;
+                border-radius: 3px 0;
+                background-color: transparent;
+                font-size: 18px;
+                font-weight: 600;
+    
+                .logo {
+                    overflow: hidden;
+                }
+            }
+    
+            .logo-wrapper:before {
+                top: 0;
+                left: 0;
+            }
+    
+            .logo-wrapper:after {
+                bottom: 0;
+                right: 0;
+            }
+    
+            .logo-wrapper:before, .logo-wrapper:after {
+                z-index: 2;
+                content: "";
+                border: 2px solid #000;
+                border-radius: 5px;
+                position: absolute;
+                width: calc(100% + 1px);
+                height: calc(100% + 1px);
+            }
+
+            .logo-wrapper:hover {
+                background-color: #000;
+                color: #fff;
+            }
+        }
+
+        .nav-links {
+            width: 35%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                position: relative;
+                margin: 0 20px;
+                list-style: none;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.638);
+
+                a {
+                    text-decoration: none;
+                    color: rgba(0, 0, 0, 0.638);
+                }
+            }
+
+            li:hover {
+                color: #000;
+            }
+        }
+    }
+}
