@@ -1,7 +1,7 @@
 .projects {
     margin-top: 150px;
     padding: 20px 0;
-    color: #33332d;
+    color: #000;
 
     .projects-wrapper {
 
@@ -36,6 +36,30 @@
                 .folder-icon {
                     font-size: 45px;
                     margin-left: 20px;
+                }
+            }
+        }
+
+        .bottom-wrapper {
+            margin-top: 50px;
+            padding: 10px 20px;
+
+            .bottom-smalltext-wrapper {
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            .viewallproject-btn {
+                margin-top: 40px;
+                margin-left: 20px;
+                cursor: pointer;
+
+                p {
+                    font-size: 25px;
+                    font-weight: 400;
                 }
             }
         }

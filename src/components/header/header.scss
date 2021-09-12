@@ -21,7 +21,7 @@
         .logo-link {
             margin-left: 10px;
             text-decoration: none;
-            color: #33332d;
+            color: #000;
 
             .logo-wrapper {
                 position: relative;
@@ -49,7 +49,7 @@
             .logo-wrapper:before, .logo-wrapper:after {
                 z-index: 2;
                 content: "";
-                border: 2px solid #33332d;
+                border: 2px solid #000;
                 border-radius: 5px;
                 position: absolute;
                 width: calc(100% + 1px);
@@ -57,13 +57,13 @@
             }
 
             .logo-wrapper:hover {
-                background-color: #33332d;
+                background-color: #000;
                 color: #fff;
             }
         }
 
         .nav-links {
-            width: 25%;
+            width: 35%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -75,11 +75,16 @@
                 cursor: pointer;
                 font-size: 18px;
                 font-weight: 500;
-                color: #33332da8;
+                color: rgba(0, 0, 0, 0.638);
+
+                a {
+                    text-decoration: none;
+                    color: rgba(0, 0, 0, 0.638);
+                }
             }
 
             li:hover {
-                color: #33332d;
+                color: #000;
             }
         }
     }

@@ -1,0 +1,98 @@
+#about {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #33332d;
+
+    .aboutPictureWrapper {
+        width: 100%;
+        height: 500px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .aboutSections {
+        display: flex;
+
+        .sectionLeft {
+            flex: 3;
+
+            .sectionTitleWrapper {
+                display: flex;
+                align-items: center;
+
+                .sectionNumber {
+                    margin-right: 30px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .sectionRight {
+            flex: 6;
+
+            .sectionTopicWrapper {
+                display: flex;
+                align-items: center;
+
+                .sectionTopic {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+
+            .toolsListTopic {
+                margin-top: 25px;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            .sectionBodyWrapper {
+                margin-top: 25px;
+
+                .sectionBody {
+                    font-size: 17px;
+                    font-weight: 300;
+                    line-height: 35px;
+                }
+
+                .skillsGrid {
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    row-gap: 15px;
+                }
+            }
+        }
+    }
+
+    .workProcess,
+    .myTools {
+        margin-top: 200px;
+    }
+
+    .contacts {
+        margin: 200px 0;
+    }
+
+    .emailWrapper {
+        margin-top: 80px;
+    }
+
+    .myStory {
+        margin-top: 100px;
+    }
+}

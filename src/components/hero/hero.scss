@@ -7,7 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #33332d;
+    color: #000;
+    overflow-y: hidden;
 
     .hero-wrapper {
         display: flex;
@@ -45,14 +46,14 @@
                     text-decoration: none;
                     font-size: 20px;
                     font-weight: 300px;
-                    color: #33332d;
-                    border: 1px solid #33332d;
-                    box-shadow: 3px 5px #33332d;
+                    color: #000;
+                    border: 1px solid #000;
+                    box-shadow: 3px 5px #000;
                 }
 
                 a:hover {
                     color: white;
-                    background-color: #33332d;
+                    background-color: #000;
                     border: none;
                 }
             }
@@ -60,21 +61,7 @@
             .hero-social-links-wrapper {
                 margin-top: 50px;
 
-                .social-link {
-                    position: relative;
-                    margin-right:40px;
-                    text-decoration: underline;
-                    font-size: 18px;
-                    font-style: italic;
-                    font-weight: 300px;
-                    color: #33332d;
-                }
-
-                .linkedin, .github {
-                    margin-left: 40px;
-                }
-
-                .social-link:hover {
+                .socialLink:hover {
                     text-decoration: none;
                 }
 
@@ -121,25 +108,17 @@
         }
     }
 
-    .scrolldown-pointer {
-        height: 70px;
-        width: 140px;
+    .copyright {
+        height: 50px;
+        width: 200px;
+        font-size: 8px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         position: absolute;
-        bottom: 15%;
-        right: -60px;
+        bottom: 2%;
+        right: -20px;
         transform: rotate(90deg);
         cursor: pointer;
-
-        .arrowIcon {
-            font-size: 20px;
-            transform: rotate(-48deg);
-        }
-    }
-
-    .scrolldown-pointer:hover {
-        // transform: translateX(20px);
     }
 }

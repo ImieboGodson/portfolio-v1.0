@@ -1,13 +1,11 @@
 import Project from '../project/Project';
 import './projectsList.scss';
+import { Projects } from '../../data';
 
 const ProjectsList = () => {
     return (
         <div className='projects-list'>
-            <Project />
-            <Project />
-            <Project />
-            <Project />
+            {Projects.map(proj => <Project key={proj.id} proj={proj}/>)}
         </div>
     )
 }

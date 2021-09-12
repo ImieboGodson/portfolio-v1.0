@@ -13,12 +13,12 @@ const Hero = () => {
                 <p>Frontend developer. Attention to detail and beauty are just things I can't do without.</p>
               </div>
               <div className='btnWrapper'>
-                <a href='' className='btn'>let's talk <GiAmericanFootballPlayer /></a>
+                <a href='mailto:imiebo.godson@gmail.com' className='btn'>let's talk <GiAmericanFootballPlayer /></a>
               </div>
               <div className='hero-social-links-wrapper'>
-                <a href='#' className='social-link twitter'>Twitter</a>/
-                <a href='#' className='social-link linkedin'>LinkedIn</a>/
-                <a href='#' className='social-link github'>Github</a>
+                <a href='#' target='_blank' className='socialLink twitter'>Twitter</a>/
+                <a href='https://www.linkedin.com/in/godson-imiebo-3b9878190/' target='_blank' className='socialLink linkedin'>LinkedIn</a>/
+                <a href='https://github.com/ImieboGodson' target='_blank' className='socialLink github'>Github</a>
               </div>
             </div>
             <div className='hero-right'>
@@ -28,7 +28,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className='scrolldown-pointer'>SCROLL DOWN <GiArrowhead className='arrowIcon'/></div>
+          <div className='copyright'> &copy; 2021 GODSON IMIEBO </div>
         </div>
     )
 }

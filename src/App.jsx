@@ -1,16 +1,30 @@
 import './App.scss';
-import Header from './components/header/Header';
-import Hero from './components/hero/Hero';
-import Projects from './components/projects/Projects';
+import Intro from './pages/intro/Intro';
+import About from './pages/about/About';
+import Projects from './pages/projects/Projects';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      <section className='section'>
-        <Hero />
-        <Projects />
-      </section>
+      <Router>
+        <Switch>
+          <Route exact path='/'>
+            <Intro />
+          </Route>
+          <Route exact path='/about'>
+            <About />
+          </Route>
+          <Route exact path='/projects'>
+            <Projects />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
