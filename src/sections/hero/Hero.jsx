@@ -1,6 +1,6 @@
 import './hero.scss';
 import { GiAmericanFootballPlayer } from "react-icons/gi";
-import { GiArrowhead } from "react-icons/gi";
+// import { GiArrowhead } from "react-icons/gi";
 
 
 const Hero = () => {
@@ -16,9 +16,9 @@ const Hero = () => {
                 <a href='mailto:imiebo.godson@gmail.com' className='btn'>let's talk <GiAmericanFootballPlayer /></a>
               </div>
               <div className='hero-social-links-wrapper'>
-                <a href='#' target='_blank' className='socialLink twitter'>Twitter</a>/
-                <a href='https://www.linkedin.com/in/godson-imiebo-3b9878190/' target='_blank' className='socialLink linkedin'>LinkedIn</a>/
-                <a href='https://github.com/ImieboGodson' target='_blank' className='socialLink github'>Github</a>
+                <a href='https://twitter.com/dev_oye' target='_blank' rel='noreferrer' className='socialLink twitter'>Twitter</a>/
+                <a href='https://www.linkedin.com/in/godson-imiebo-3b9878190/' target='_blank' rel='noreferrer' className='socialLink linkedin'>LinkedIn</a>/
+                <a href='https://github.com/ImieboGodson' target='_blank' rel='noreferrer' className='socialLink github'>Github</a>
               </div>
             </div>
             <div className='hero-right'>

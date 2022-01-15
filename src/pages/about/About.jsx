@@ -97,9 +97,9 @@ const AboutPage = () => {
                             </div>
                             <div className="sectionBodyWrapper">
                                 <div className='heroSocialLinksWrapper'>
-                                    <a href='#' target="_blank" className='socialLink twitter'>Twitter</a>/
-                                    <a href='https://www.linkedin.com/in/godson-imiebo-3b9878190/' target="_blank" className='socialLink linkedin'>LinkedIn</a>/
-                                    <a href='https://github.com/ImieboGodson' target="_blank" className='socialLink github'>Github</a>
+                                    <a href='https://twitter.com/dev_oye' target="_blank" rel='noreferrer' className='socialLink twitter'>Twitter</a>/
+                                    <a href='https://www.linkedin.com/in/godson-imiebo-3b9878190/' target="_blank" rel='noreferrer' className='socialLink linkedin'>LinkedIn</a>/
+                                    <a href='https://github.com/ImieboGodson' target="_blank" rel='noreferrer' className='socialLink github'>Github</a>
                                 </div>
                             </div>
                             <div className="sectionTopicWrapper emailWrapper">
@@ -107,7 +107,7 @@ const AboutPage = () => {
                             </div>
                             <div className="sectionBodyWrapper">
                                 <div className='heroSocialLinksWrapper'>
-                                    <a href='mailto:imiebo.godson@gmail.com' target="_blank" className='socialLink twitter'>imiebo.godson@gmail.com</a>
+                                    <a href='mailto:imiebo.godson@gmail.com' target="_blank" rel='noreferrer' className='socialLink twitter'>imiebo.godson@gmail.com</a>
                                 </div>
                             </div>
                         </div>
