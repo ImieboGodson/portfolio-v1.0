@@ -1,0 +1,54 @@
+.contact {
+    margin-top: 100px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .contact-center-texts {
+            text-align: center;
+
+            .contact-bold-text {
+                font-size: 60px;
+                font-weight: 700;
+            }
+
+            .contact-small-text {
+                margin-top: 60px;
+            }
+        }
+
+        .say-hello-btn-wrapper {
+            margin-top: 70px;
+            padding: 15px 20px;
+            border: 2px solid #000;
+            // border-radius: 50%;
+            cursor: pointer;
+            transition: .5s;
+
+            .btn {
+                font-size: 20px;
+                font-weight: 600;
+                text-decoration: none;
+                color: #000;
+            }
+        }
+
+        .say-hello-btn-wrapper:hover {
+            background-color: #000;
+            color: #fff;
+            border: 2px solid #fff;
+
+            .btn {
+                color: #fff;
+            }
+        }
+    }
+}
