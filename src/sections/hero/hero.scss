@@ -108,7 +108,7 @@
         }
     }
 
-    .copyright {
+    .scrolldown {
         height: 50px;
         width: 200px;
         font-size: 8px;
@@ -120,5 +120,9 @@
         right: -20px;
         transform: rotate(90deg);
         cursor: pointer;
+
+        .scrolldown-icon {
+            font-size: 1rem;
+        }
     }
 }
