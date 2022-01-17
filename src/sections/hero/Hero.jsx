@@ -1,6 +1,6 @@
 import './hero.scss';
 import { GiAmericanFootballPlayer } from "react-icons/gi";
-// import { GiArrowhead } from "react-icons/gi";
+import { CgArrowLongDownR } from "react-icons/cg";
 
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className='copyright'> &copy; 2021 GODSON IMIEBO </div>
+          <div className='scrolldown'> SCROLL DOWN <CgArrowLongDownR className='scrolldown-icon'/></div>
         </div>
     )
 }

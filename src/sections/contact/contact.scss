@@ -1,6 +1,8 @@
 .contact {
+    position: relative;
     margin-top: 100px;
-    height: 100vh;
+    // height: 100vh;
+    height: calc(100vh - 70px);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -25,29 +27,42 @@
             }
         }
 
-        .say-hello-btn-wrapper {
+        .say-hello-btn {
             margin-top: 70px;
             padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #000;
             border: 2px solid #000;
-            // border-radius: 50%;
             cursor: pointer;
             transition: .5s;
 
-            .btn {
-                font-size: 20px;
-                font-weight: 600;
-                text-decoration: none;
-                color: #000;
+            .say-hello-btn-icon {
+                margin-left: 10px;
+                font-size: 1.5rem;
             }
         }
 
-        .say-hello-btn-wrapper:hover {
+        .say-hello-btn:hover {
             background-color: #000;
             color: #fff;
             border: 2px solid #fff;
+        }
 
-            .btn {
-                color: #fff;
+        .underlay-icon-wrapper {
+            position: absolute;
+            top: 80px;
+            right: 250px;
+            z-index: -50;
+            
+
+            .underlay-icon {
+                font-size: 13rem;
+                z-index: -50;
             }
         }
     }

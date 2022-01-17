@@ -1,4 +1,5 @@
 import './contact.scss';
+import { GiRaiseZombie, GiTargeting } from "react-icons/gi";
 
 const Contact = () => {
     return (
@@ -9,8 +10,11 @@ const Contact = () => {
                     <p className='contact-small-text'>Feel free to reach out if you want to collaborate with me or simply have chat.</p>
                 </div>
                 <div className='say-hello-btn-wrapper'>
-                    <a href='mailto:imiebo.godson@gmail.com' className='btn'>Say Hello</a>
+                    <a href='mailto:imiebo.godson@gmail.com' className='say-hello-btn'>Hit Me Up!<GiRaiseZombie className='say-hello-btn-icon'/></a>
                 </div>
+                {/* <div className='underlay-icon-wrapper'>
+                    <GiTargeting className='underlay-icon'/>
+                </div> */}
             </div>
         </div>
     )
