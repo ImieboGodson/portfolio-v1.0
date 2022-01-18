@@ -5,4 +5,46 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .aboutMe-wrapper {
+        width: 100%;
+
+        .projects-toptext {
+            width: 100%;
+            padding: 20px 0;
+    
+            .topmost-smalltext-wrapper {
+                display: flex;
+                align-items: center;
+    
+                p {
+                    font-size: 14px;
+                    margin-right: 10px;
+                }
+    
+                // span {
+                //     font-weight: 500;
+                // }
+            }
+    
+            .topmost-bigtext-wrapper {
+                
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+    
+                .topmost-bigtext {
+                    font-size: 35px;
+                    font-weight: 700;
+                }
+    
+                .folder-icon {
+                    font-size: 45px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    
 }

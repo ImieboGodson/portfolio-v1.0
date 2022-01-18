@@ -14,9 +14,11 @@
 
     .wrapper {
         width: 100%;
+        // padding: 20px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        // border-bottom: 3px solid #000;
         
         .logo-link {
             margin-left: 10px;
