@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='hero-left'>
               <div className='introTexts'>
                 <h1>Hello! I am Godson Imiebo.</h1>
-                <p>Frontend developer. Attention to detail and beauty are just things I can't do without.</p>
+                <p className='hero-intro-text'><span>Frontend developer.</span> Attention to detail and beauty are just things I can't do without.</p>
               </div>
               <div className='btnWrapper'>
                 <a href='mailto:imiebo.godson@gmail.com' className='btn'>let's talk <GiAmericanFootballPlayer /></a>
