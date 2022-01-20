@@ -1,5 +1,6 @@
 import './projects.scss';
 import { AiTwotoneFolderOpen } from "react-icons/ai";
+import { BiRightArrow } from "react-icons/bi";
 import Header from '../../components/header/Header';
 import ProjectsList from '../../components/projectsList/ProjectsList';
 
@@ -25,6 +26,7 @@ const Projects = () => {
                         </div>
                         <div className='viewallproject-btn'>
                             <p className='btn-text'>View all projects</p>
+                            <BiRightArrow className='viewallproject-btn-icon'/>
                         </div>
                     </div>
                 </div>

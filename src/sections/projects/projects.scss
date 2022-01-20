@@ -55,11 +55,19 @@
             .viewallproject-btn {
                 margin-top: 40px;
                 margin-left: 20px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
                 cursor: pointer;
 
                 p {
+                    margin-right: 10px;
                     font-size: 25px;
                     font-weight: 400;
+                }
+
+                .viewallproject-btn-icon {
+                    font-size: 2rem;
                 }
             }
         }
