@@ -112,21 +112,31 @@
         }
     }
 
-    .scrolldown {
-        height: 50px;
-        width: 200px;
-        font-size: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: absolute;
-        bottom: 2%;
-        right: -20px;
-        transform: rotate(90deg);
-        cursor: pointer;
-
-        .scrolldown-icon {
-            font-size: 1rem;
+    .scrolldown-wrapper {
+        color: #000;
+        text-decoration: none;
+        .scrolldown {
+            height: 50px;
+            // width: 200px;
+            font-size: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            bottom: 15%;
+            right: -20px;
+            transform: rotate(90deg);
+            cursor: pointer;
+    
+            .scrolldown-text {
+                font-size: 0.8rem
+            }
+    
+            .scrolldown-icon {
+                margin-left: 10px;
+                font-size: 2rem;
+                transform: rotate(-90deg);
+            }
         }
     }
 }

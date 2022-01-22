@@ -15,11 +15,11 @@ const Project = ({proj}) => {
                             <p className='project-type'>{proj.type}</p>
                         </div>
                     </div>
-                    <div className='project-details-right'>
+                    {/* <div className='project-details-right'>
                         <div className='project-btn'>
                             <p>VIEW PROJECT</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

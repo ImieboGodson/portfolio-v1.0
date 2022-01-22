@@ -3,7 +3,7 @@ import { GiBandana } from "react-icons/gi";
 
 const AboutMe = () => {
     return (
-        <div className='aboutMe'>
+        <div id='aboutMe' className='aboutMe'>
             <div className='aboutMe-wrapper container'>
                 <div className='projects-toptext'>
                     <div className='topmost-smalltext-wrapper'>
@@ -15,7 +15,12 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className='aboutMe-main-content-wrapper'>
-                    Main part
+                    <div className='aboutMe-text-main-wrapper'>
+                        <p className='aboutMe-text-main'>Passionate Front-end Developer, a <span>fast learner</span> and a <span>visually-oriented</span> engineer adept at delivering <span>great user experience</span>.</p>
+                    </div>
+                    <div className='aboutMe-stacklist-wrapper'>
+                        <p>STACKS</p>
+                    </div>
                 </div>
                     
             </div>

@@ -28,7 +28,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className='scrolldown'> SCROLL DOWN <CgArrowLongDownR className='scrolldown-icon'/></div>
+          <a className='scrolldown-wrapper' href='#aboutMe'>
+            <div className='scrolldown'> <p className='scrolldown-text'>SCROLL DOWN</p> <CgArrowLongDownR className='scrolldown-icon'/></div>
+          </a>
         </div>
     )
 }
