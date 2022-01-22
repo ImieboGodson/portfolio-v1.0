@@ -2,7 +2,7 @@
     height: 200px;
     margin-top: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: hsl(49, 37%, 94%);
     border: 2px solid #33332d;
     box-shadow: 1px 3px #33332d;
     transition: .5s ease;
@@ -28,6 +28,8 @@
                     margin-right: 70px;
                     display: flex;
                     align-items: center;
+                    color: #000;
+                    transition: .5s ease;
     
                     .line {
                         width: 70px;
@@ -35,11 +37,13 @@
                         background: #d8d8d8;
                         // margin-top: 3rem;
                         margin-right: .8rem;
+                        transition: .5s ease;
                     }
     
                     .project-number {
                         font-size: 25px;
                         font-weight: 500;
+                        transition: .3s ease;
                     }
                 }
     
@@ -47,6 +51,7 @@
                     padding: 20px;
                     display: flex;
                     flex-direction: column;
+                    transition: .5s ease;
     
                     .project-name {
                         font-size: 35px;
@@ -68,7 +73,7 @@
                 .project-btn {
                     margin-right: 40px;
                     padding: 10px;
-                    border: 1px solid #33332d;
+                    // border: 1px solid #33332d;
 
                     p {
                         font-style: italic;
@@ -81,4 +86,58 @@
 
 .project:hover {
     box-shadow: 5px 7px #33332d;
+    background-color: #33332d;
+    color: hsl(49, 37%, 94%);
+
+    .project-wrapper {
+
+        .project-details-wrapper {
+
+            .project-details-left {
+
+                .project-deco {
+                    margin-right: 50px;
+                    color: #fff;
+    
+                    .line {
+                        width: 100px;
+                    }
+    
+                    .project-number {
+                        font-size: 75px;
+                        font-weight: 600;
+                    }
+                }
+    
+                .project-details {
+    
+                    .project-name {
+                        font-size: 55px;
+                        font-weight: 700;
+                    }
+    
+                    .project-type {
+                        margin-top: 10px;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .project-details-right {
+                display: flex;
+                align-items: center;
+
+                .project-btn {
+                    margin-right: 40px;
+                    padding: 10px;
+                    // border: 1px solid #fff;
+
+                    p {
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
 }

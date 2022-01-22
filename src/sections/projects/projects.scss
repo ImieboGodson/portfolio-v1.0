@@ -52,22 +52,40 @@
                 }
             }
 
-            .viewallproject-btn {
-                margin-top: 40px;
-                margin-left: 20px;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                cursor: pointer;
+            .viewallproject-btn-wrapper {
+                color: #000;
+                text-decoration: none;
+                .viewallproject-btn {
+                    margin-top: 40px;
+                    margin-left: 20px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    cursor: pointer;
+                    transition: .5s ease;
+    
+                    p {
+                        margin-right: 5px;
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+    
+                    .viewallproject-btn-icon {
+                        font-size: 2rem;
+                        transition: .5s ease;
+                    }
+                }
+            }
+
+            .viewallproject-btn:hover {
+                margin-left: 40px;
 
                 p {
-                    margin-right: 10px;
-                    font-size: 25px;
-                    font-weight: 400;
+                    font-weight: 700;
                 }
 
                 .viewallproject-btn-icon {
-                    font-size: 2rem;
+                    margin-left: 5px;
                 }
             }
         }
