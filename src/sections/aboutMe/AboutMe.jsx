@@ -16,7 +16,7 @@ const AboutMe = () => {
                 </div>
                 <div className='aboutMe-main-content-wrapper'>
                     <div className='aboutMe-text-main-wrapper'>
-                        <p className='aboutMe-text-main'>Passionate Front-end Developer, a <span>fast learner</span> and a <span>visually-oriented</span> engineer adept at delivering <span>great user experience</span>.</p>
+                        <p className='aboutMe-text-main'>Passionate Front-end Developer, a <span>learner</span> and a <span>visually-oriented</span> engineer adept at delivering <span>amazing user experiences</span>.</p>
                     </div>
                     <div className='aboutMe-stacklist-wrapper'>
                         <p>STACKS</p>
