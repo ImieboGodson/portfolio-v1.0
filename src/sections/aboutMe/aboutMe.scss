@@ -1,5 +1,5 @@
 .aboutMe {
-    margin-top: 70px;
+    margin-top: 200px;
     position: relative;
     width: 100%;
     display: flex;
@@ -9,51 +9,95 @@
     .aboutMe-wrapper {
         width: 100%;
 
-        .projects-toptext {
-            width: 100%;
-            padding: 20px 0;
-    
-            .topmost-smalltext-wrapper {
+        .top-of-section-texts-wrapper {
+            display: flex;
+            justify-content: flex-end;
+
+            .top-of-section-texts {
+                width: 55%;
+                padding: 5px 0;
                 display: flex;
-                align-items: center;
-    
-                p {
-                    font-size: 14px;
-                    margin-right: 10px;
-                }
-    
-                // span {
-                //     font-weight: 500;
-                // }
-            }
-    
-            .topmost-bigtext-wrapper {
-                
-                margin-top: 20px;
-                display: flex;
-                align-items: center;
-    
-                .topmost-bigtext {
-                    font-size: 35px;
-                    font-weight: 700;
-                }
-    
-                .folder-icon {
-                    font-size: 45px;
-                    margin-left: 20px;
+                justify-content: flex-end;
+                align-items: flex-start;
+                border-top: 5px solid #000;
+
+                .top-of-section-texts-items {
+                    width: 95%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    text-align: right;
+
+                    .left-text {
+                        margin-right: 100px;
+                        display: flex;
+                        align-items: flex-start;
+
+                        .smaller-left-text {
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+
+                        .left-text-number {
+                            margin-left: 2px;
+                        }
+                    }
+
+                    p {
+                        text-transform: uppercase;
+                        font-size: 2rem;
+                        line-height: 40px;
+                    }
                 }
             }
         }
 
+        // .projects-toptext {
+        //     width: 100%;
+        //     padding: 20px 0;
+    
+        //     .topmost-smalltext-wrapper {
+        //         display: flex;
+        //         align-items: center;
+    
+        //         p {
+        //             font-size: 14px;
+        //             margin-right: 10px;
+        //         }
+    
+        //         // span {
+        //         //     font-weight: 500;
+        //         // }
+        //     }
+    
+        //     .topmost-bigtext-wrapper {
+                
+        //         margin-top: 20px;
+        //         display: flex;
+        //         align-items: center;
+    
+        //         .topmost-bigtext {
+        //             font-size: 35px;
+        //             font-weight: 700;
+        //         }
+    
+        //         .folder-icon {
+        //             font-size: 45px;
+        //             margin-left: 20px;
+        //         }
+        //     }
+        // }
+
         .aboutMe-main-content-wrapper {
 
             .aboutMe-text-main-wrapper {
-                width: 82%;
+                width: 100%;
                 .aboutMe-text-main {
-                    margin-top: 100px;
-                    font-size: 2.5rem;
+                    margin-top: 200px;
+                    font-size: 3.5rem;
                     font-weight: 300;
-                    line-height: 60px;
+                    line-height: 70px;
     
                     span {
                         font-weight: 400;
@@ -64,6 +108,86 @@
 
             .aboutMe-stacklist-wrapper {
                 margin-top: 50px;
+                margin-left: 400px;
+
+                p {
+                    width: 325px;
+                    font-size: 1.2rem;
+                    line-height: 20px;
+
+                    span {
+                        font-weight: 700;
+                        font-size: 1rem;
+                        text-decoration: underline;
+                        letter-spacing: -2px;
+                    }
+                    
+                }
+
+                .aboutMe-links {
+                    color: black;
+                    font-weight: 700;
+                    font-size: 1rem;
+                    letter-spacing: -2px;
+                }
+            }
+
+            .aboutMe-hobbies-wrapper {
+                margin-top: 50px;
+                display: flex;
+                justify-content: flex-end;
+                text-align: right;
+
+                p {
+                    width: 520px;
+                    font-size: 1.2rem;
+                    line-height: 20px;
+
+                    span {
+                        margin-left: 190px;
+                        font-weight: 700;
+                        font-size: 1rem;
+                        text-decoration: underline;
+                        letter-spacing: -2px;
+                    }
+                    
+                    .aboutMe-links {
+                        color: black;
+                        font-weight: 700;
+                        font-size: 1rem;
+                        letter-spacing: -2px;
+                    }
+                }
+            }
+
+            .aboutMe-quote-wrapper {
+                margin-top: 100px;
+                display: flex;
+                justify-content: flex-start;
+                text-align: left;
+
+                p {
+                    width: 80%;
+                    font-size: 1.2rem;
+                    line-height: 20px;
+                    font-style: italic;
+                    color: rgba(0, 0, 0, 0.857);
+
+                    span {
+                        // margin-left: 100px;
+                        font-weight: 700;
+                        font-size: 1rem;
+                        text-decoration: underline;
+                        letter-spacing: -2px;
+                    }
+                    
+                    .aboutMe-links {
+                        color: black;
+                        font-weight: 700;
+                        font-size: 1rem;
+                        letter-spacing: -2px;
+                    }
+                }
             }
         }
         

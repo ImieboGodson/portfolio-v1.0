@@ -1,6 +1,6 @@
 import './hero.scss';
 import { GiAmericanFootballPlayer } from "react-icons/gi";
-import { CgArrowLongDownR } from "react-icons/cg";
+import { BsArrowDownShort } from "react-icons/bs";
 
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
             </div>
           </div>
           <a className='scrolldown-wrapper' href='#aboutMe'>
-            <div className='scrolldown'> <p className='scrolldown-text'>SCROLL DOWN</p> <CgArrowLongDownR className='scrolldown-icon'/></div>
+            <div className='scrolldown'> <p className='scrolldown-text'>SCROLL DOWN</p> <BsArrowDownShort className='scrolldown-icon'/></div>
           </a>
         </div>
     )

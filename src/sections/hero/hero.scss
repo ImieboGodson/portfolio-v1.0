@@ -53,6 +53,7 @@
                     color: #000;
                     border: 1px solid #000;
                     box-shadow: 3px 5px #000;
+                    transition: .1s;
                 }
 
                 a:hover {
@@ -115,6 +116,7 @@
     .scrolldown-wrapper {
         color: #000;
         text-decoration: none;
+        
         .scrolldown {
             height: 50px;
             // width: 200px;
@@ -123,7 +125,7 @@
             align-items: center;
             justify-content: space-between;
             position: absolute;
-            bottom: 15%;
+            bottom: 14%;
             right: -20px;
             transform: rotate(90deg);
             cursor: pointer;
@@ -133,8 +135,8 @@
             }
     
             .scrolldown-icon {
-                margin-left: 10px;
-                font-size: 2rem;
+                margin-left: 2px;
+                font-size: 1.6rem;
                 transform: rotate(-90deg);
             }
         }
