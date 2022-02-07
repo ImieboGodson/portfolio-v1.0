@@ -14,7 +14,7 @@ const Projects = () => {
                         <div className='top-of-section-texts'>
                             <div className='top-of-section-texts-items'>
                                 <div className='left-text'>
-                                    <p>S</p>
+                                    <p>N</p>
                                     <p className='smaller-left-text'>o</p>
                                     <p className='left-text-number'>3</p>
                                 </div>
