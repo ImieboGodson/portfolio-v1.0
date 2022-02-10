@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000;
+    color: inherit;
     overflow-y: hidden;
 
     .hero-wrapper {
@@ -50,15 +50,15 @@
                     text-decoration: none;
                     font-size: 20px;
                     font-weight: 300px;
-                    color: #000;
-                    border: 1px solid #000;
-                    box-shadow: 3px 5px #000;
+                    color: inherit;
+                    border: 1px solid #33332d;
+                    box-shadow: 3px 5px #33332d;
                     transition: .1s;
                 }
 
                 a:hover {
                     color: white;
-                    background-color: #000;
+                    background-color: #33332d;
                     border: none;
                 }
             }
@@ -114,7 +114,7 @@
     }
 
     .scrolldown-wrapper {
-        color: #000;
+        color: inherit;
         text-decoration: none;
         
         .scrolldown {

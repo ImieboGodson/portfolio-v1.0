@@ -1,7 +1,7 @@
 .projects {
     margin-top: 150px;
     padding: 20px 0;
-    color: #000;
+    color: inherit;
 
     .projects-wrapper {
 
@@ -15,7 +15,7 @@
                 display: flex;
                 justify-content: flex-start;
                 align-items: flex-start;
-                border-top: 5px solid #000;
+                border-top: 5px solid #33332d;
 
                 .top-of-section-texts-items {
                     width: 95%;
@@ -105,7 +105,7 @@
                 width: fit-content;
 
                 .viewallproject-anchorTag {
-                    color: #000;
+                    color: inherit;
                     text-decoration: none;
 
                     .viewallproject-btn {
