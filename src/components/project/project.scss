@@ -2,13 +2,14 @@
     height: 200px;
     margin-top: 20px;
     padding: 5px 20px;
+    color: #33332d;
+    // color: #000;
     background-color: hsl(49, 37%, 94%);
     // border: 2px solid #33332d;
-    box-shadow: 1px 3px #33332d;
+    // box-shadow: 1px 3px #33332d;
     border-radius: -50px;
     transition: .5s ease;
     cursor: pointer;
-    
 
     .project-wrapper {
         height: 100%;
@@ -29,13 +30,13 @@
                     margin-right: 70px;
                     display: flex;
                     align-items: center;
-                    color: #000;
+                    color: inherit;
                     transition: .5s ease;
     
                     .line {
                         width: 70px;
                         height: 1px;
-                        background: #d8d8d8;
+                        background: #33332d27;
                         // margin-top: 3rem;
                         margin-right: .8rem;
                         transition: .5s ease;
@@ -86,9 +87,10 @@
 }
 
 .project:hover {
-    box-shadow: 5px 7px #33332d;
-    background-color: #33332d;
-    color: hsl(49, 37%, 94%);
+    box-shadow: -5px 7px #33332d;
+    border: 2px solid #33332d;
+    // background-color: #33332d;
+    // color: hsl(49, 37%, 94%);
 
     .project-wrapper {
 
@@ -98,7 +100,7 @@
 
                 .project-deco {
                     margin-right: 50px;
-                    color: #fff;
+                    // color: #fff;
     
                     .line {
                         width: 100px;
