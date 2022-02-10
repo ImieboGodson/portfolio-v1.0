@@ -1,4 +1,85 @@
 .project-page {
     color: inherit;
     background-color: inherit;
+
+    .project-page-wrapper {
+        
+
+        .project-image-wrapper {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #33332d;
+
+            .project-name {
+                font-size: 3.5rem;
+                font-weight: 700;
+                color: hsl(49, 37%, 94%);
+            }
+        }
+
+        .project-details-wrapper{
+            height: 100vh;
+            padding-top: 50px;
+
+            .abouttheprojecttext-wrapper {
+
+                .abouttheproject-text {
+                    font-size: 3.5rem;
+                }
+            }
+
+            .projectdetails-wrapper {
+                margin: 20px 0;
+                line-height: 35px;
+
+                .projectdetails-summary-text {
+                    font-size: 1.1rem;
+                }
+
+                .projectdetails-contributors-wrapper {
+
+                    .projectdetails-contributors-header {
+                        font-size: 1.5rem;
+                    }
+
+                    .projectdetails-contributors-list-wrapper {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        
+                        .projectdetails-contributor {
+
+                        }
+                    }
+                }
+
+                .projectdetails-tools-wrapper {
+                    margin: 30px 0;
+
+                    .projectdetails-tools-header {
+                        font-size: 1.5rem;
+                    }
+
+                    .projectdetails-tools-text {
+                        margin: 10px 0;
+                    }
+                }
+            }
+
+            .projectdetails-buttons-wrapper {
+                padding: 20px 0;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                .projectdetails-button {
+                    margin-right: 40px;
+                    color: inherit;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
 }

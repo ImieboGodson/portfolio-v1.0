@@ -1,6 +1,7 @@
 export const Projects = [
     {
         id: 1,
+        title: "Monsters-'n'-Funk",
         name: "Monsters 'n' Funk",
         type: 'React Application',
         githubLink: 'https://github.com/ImieboGodson/monstersandfunk',
@@ -8,6 +9,7 @@ export const Projects = [
     },
     {
         id: 2,
+        title: "Ear1-Landing-page",
         name: "Ear1 Landing page",
         type: 'Landing Page',
         githubLink: 'https://github.com/ImieboGodson/ear1-landing-page-challenge',
@@ -15,6 +17,7 @@ export const Projects = [
     },
     {
         id: 3,
+        title: "Random-Quote-Generator",
         name: "Random Quote Generator",
         type: 'JavaScript Application',
         githubLink: 'https://github.com/ImieboGodson/quote-generator',
@@ -22,6 +25,7 @@ export const Projects = [
     },
     {
         id: 4,
+        title: "My-Portfolio",
         name: "My Portfolio",
         type: 'React Application',
         githubLink: 'https://github.com/ImieboGodson/portfolio',
