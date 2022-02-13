@@ -5,7 +5,7 @@ const Project = ({proj}) => {
     return (
         
             <div className='project'>
-                <Link to={`/projects/${proj.name}`} style={{ textDecoration: 'none', color: 'inherit'}}>
+                <Link to={`/projects/${proj.title}`} style={{ textDecoration: 'none', color: 'inherit'}}>
                     <div className='project-wrapper'>
                         <div className='project-details-wrapper'>
                             <div className='project-details-left'>

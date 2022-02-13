@@ -6,6 +6,7 @@ import AboutMe from '../../sections/aboutMe/AboutMe';
 import Footer from '../../components/footer/Footer';
 
 const LayoutWrapper = () => {
+
     return (
         <div className='layoutWrapper'>
             <Hero />
