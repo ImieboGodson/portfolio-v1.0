@@ -25,8 +25,8 @@ export const Projects = [
     },
     {
         id: 4,
-        title: "My-Portfolio",
-        name: "My Portfolio",
+        title: "Portfolio",
+        name: "Portfolio v1.0",
         type: 'React Application',
         githubLink: 'https://github.com/ImieboGodson/portfolio',
         liveLink: '',

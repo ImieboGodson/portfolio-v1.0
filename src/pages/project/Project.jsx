@@ -1,11 +1,21 @@
+import { useLocation } from 'react-router-dom';
+import { Projects } from '../../data';
 import './project.scss';
 
 const Project = () => {
+
+    const location = useLocation();
+    const path = location.pathname.split('/')[2]
+    const project = Projects.find(p => p.title === path)
+    console.log('proj Object ', project)
+
+    console.log('Location: ', path)
+
   return (
     <div className='project-page'>
         <div className='project-page-wrapper'>
             <div className='project-image-wrapper'>
-                <p className='project-name'>PROJECT NAME</p>
+                <p className='project-name'>{project.name}</p>
             </div>
             <div className='project-details-wrapper container'>
                 <div className='abouttheprojecttext-wrapper'>
@@ -29,8 +39,8 @@ const Project = () => {
                         <p className='projectdetails-tools-text'>Adobe XD /   HTML5 /   CSS3 /   JavaScript /   SASS /   React JS /   Redux /   Redux-Saga /   Webpack /   TMDB API</p>
                     </div>
                     <div className='projectdetails-buttons-wrapper'>
-                        <a href='https://dev.to/imiebogodson' target='_blank' rel='noreferrer' className='projectdetails-button'>_Github Repo</a>
-                        <a href='https://dev.to/imiebogodson' target='_blank' rel='noreferrer' className='projectdetails-button'>_Live Link</a>
+                        <a href={`${project.githubLink}`} target='_blank' rel='noreferrer' className='projectdetails-button'>_Github Repo</a>
+                        <a href={`${project.liveLink}`} target='_blank' rel='noreferrer' className='projectdetails-button'>_Live Link</a>
                     </div>
                 </div>
             </div>
