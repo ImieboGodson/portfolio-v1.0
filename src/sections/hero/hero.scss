@@ -39,32 +39,36 @@
 
 
             .btnWrapper {
-                height: 80px;
-                padding: 5px 0;
-                display: flex;
-                align-items: center;
+                width: 35%;
+                // border-bottom: 1px solid #000;
 
                 a {
-                    margin-left: 4px;
-                    padding: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    // margin-left: 4px;
+                    padding: 10px 25px 3px 0;
                     text-decoration: none;
                     font-size: 20px;
                     font-weight: 300px;
                     color: inherit;
-                    border: 1px solid #33332d;
-                    box-shadow: 3px 5px #33332d;
+                    border-bottom: 2px solid hsl(49, 37%, 94%);
+                    // box-shadow: 3px 5px #33332d;
                     transition: .1s;
+
+                    .btn-icon {
+                        font-size: 1.5rem;
+                    }
                 }
 
                 a:hover {
-                    color: white;
-                    background-color: #33332d;
-                    border: none;
+                    // text-decoration: underline;
+                    border-bottom: 2px solid #33332d;
                 }
             }
 
             .hero-social-links-wrapper {
-                margin-top: 50px;
+                margin-top: 100px;
 
                 .socialLink:hover {
                     text-decoration: none;

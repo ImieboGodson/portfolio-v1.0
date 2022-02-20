@@ -1,5 +1,5 @@
 import './hero.scss';
-import { GiAmericanFootballPlayer } from "react-icons/gi";
+import { IoDocumentText } from "react-icons/io5";
 import { BsArrowDownShort } from "react-icons/bs";
 
 
@@ -13,7 +13,7 @@ const Hero = () => {
                 <p className='hero-intro-text'><span>Frontend developer.</span> Attention to detail and beauty are just things I can't do without.</p>
               </div>
               <div className='btnWrapper'>
-                <a href='mailto:imiebo.godson@gmail.com' className='btn'>let's talk <GiAmericanFootballPlayer /></a>
+                <a href='https://drive.google.com/file/d/1Ogh1xdK_Ic4uq07TZZbizcE3pXM6JLDX/view?usp=sharing' target='_blank' rel='noreferrer' className='btn'><IoDocumentText className='btn-icon'/> <p>View Resume</p></a>
               </div>
               <div className='hero-social-links-wrapper'>
                 <a href='https://twitter.com/dev_oye' target='_blank' rel='noreferrer' className='socialLink twitter'>Twitter</a>/
