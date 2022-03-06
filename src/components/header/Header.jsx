@@ -1,5 +1,5 @@
 import './header.scss';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -9,9 +9,11 @@ const Header = () => {
         <div className='header'>
           <div className='wrapper'>
                 <a href='/' className='logo-link'>
-                    <div className='logo-wrapper'>
-                        <div className='logo'>gi</div>
-                    </div>
+                    <p className='logo-letters firstname'>GODSON</p>
+                    <p className='logo-letters surname'>IMIEBO</p>
+                    {/* <div className='logo-wrapper'>
+                        <div className='logo'>GODSON IMIEBO</div>
+                    </div> */}
                 </a>
                 {/* <ul className='nav-links'>
                     <li className='nav-link'><Link to='/about'>About</Link></li>
