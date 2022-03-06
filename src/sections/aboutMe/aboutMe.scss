@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #262621;
 
     .aboutMe-wrapper {
         width: 100%;
@@ -19,7 +20,7 @@
                 display: flex;
                 justify-content: flex-end;
                 align-items: flex-start;
-                border-top: 5px solid #33332d;
+                border-top: 5px solid #262621;
 
                 .top-of-section-texts-items {
                     width: 95%;
@@ -125,7 +126,7 @@
                 }
 
                 .aboutMe-links {
-                    color: #33332d;
+                    color: #262621;
                     font-weight: 700;
                     font-size: 1rem;
                     letter-spacing: -2px;
@@ -152,7 +153,7 @@
                     }
                     
                     .aboutMe-links {
-                        color: #33332d;
+                        color: #262621;
                         font-weight: 700;
                         font-size: 1rem;
                         letter-spacing: -2px;
@@ -171,7 +172,7 @@
                     font-size: 1rem;
                     line-height: 20px;
                     font-style: italic;
-                    color: #33332d;
+                    color: #262621;
 
                     span {
                         // margin-left: 100px;
@@ -182,7 +183,7 @@
                     }
                     
                     .aboutMe-links {
-                        color: #33332d;
+                        color: #262621;
                         font-weight: 700;
                         font-size: 1rem;
                         letter-spacing: -2px;
