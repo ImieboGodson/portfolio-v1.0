@@ -4,6 +4,7 @@ import Projects from '../../sections/projects/Projects'
 import Contact from '../../sections/contact/Contact';
 import AboutMe from '../../sections/aboutMe/AboutMe';
 import Footer from '../../components/footer/Footer';
+import Preloader from '../../components/preloader/Preloader';
 
 const LayoutWrapper = () => {
 
@@ -14,6 +15,7 @@ const LayoutWrapper = () => {
             <Projects />
             <Contact />
             <Footer />
+            <Preloader />
         </div>
     )
 }
