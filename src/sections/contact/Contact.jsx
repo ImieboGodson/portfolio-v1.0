@@ -1,5 +1,5 @@
 import './contact.scss';
-import { GiRaiseZombie, GiTargeting } from "react-icons/gi";
+import { GiRaiseZombie } from "react-icons/gi";
 
 const Contact = () => {
     return (
