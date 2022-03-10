@@ -1,5 +1,5 @@
 import './preloader.scss'
-import ProgressBar from "@ramonak/react-progress-bar";
+// import ProgressBar from "@ramonak/react-progress-bar";
 
 const Preloader = () => {
   return (
