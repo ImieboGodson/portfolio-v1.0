@@ -1,4 +1,4 @@
-export const Projects = [
+export const ProjectsArray = [
     {
         id: 1,
         title: "Monsters-'n'-Funk",

@@ -6,17 +6,33 @@ import AboutMe from '../../sections/aboutMe/AboutMe';
 import Footer from '../../components/footer/Footer';
 import Preloader from '../../components/preloader/Preloader';
 import { useEffect, useState } from 'react';
+import { ProjectsArray } from '../../data';
 
 const LayoutWrapper = () => {
 
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
+    const [progress, setProgress] = useState(0)
 
     useEffect(() => {
-        setLoading(true)
+        setLoading(true);
+        
+        for(let i = 0; i <= ProjectsArray.length; i++) {
+            let progressPercentage = Math.floor((i / ProjectsArray.length) * 100);
+
+            setProgress(progressPercentage);
+            console.log('Progress: ', progressPercentage);
+        }
+
+        // setLoading(false);
         setTimeout(() => {
             setLoading(false)
-        }, 3500)
+        }, 5000)
     }, [])
+
+    // const percentage = () => {
+
+        
+    // }
     
 
     return (
@@ -29,14 +45,14 @@ const LayoutWrapper = () => {
                     <>
                         <Hero />
                         <AboutMe />
-                        <Projects />
+                        <Projects projects={ProjectsArray}/>
                         <Contact />
                         <Footer />
                     </> 
                 )
                 :
                 (
-                    <Preloader />
+                    <Preloader progress={progress}/>
                 )
             }
         </div>

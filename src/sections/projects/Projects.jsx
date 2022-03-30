@@ -4,7 +4,7 @@ import { BiRightArrow } from "react-icons/bi";
 import Header from '../../components/header/Header';
 import ProjectsList from '../../components/projectsList/ProjectsList';
 
-const Projects = () => {
+const Projects = ({ projects }) => {
     return (
         <>
             <Header />
@@ -33,7 +33,7 @@ const Projects = () => {
                         </div>
                     </div> */}
                     <div className='projectlist-wrapper'>
-                        <ProjectsList />
+                        <ProjectsList projects={projects}/>
                     </div>
                     <div className='bottom-wrapper'>
                         <div className='bottom-smalltext-wrapper'>
