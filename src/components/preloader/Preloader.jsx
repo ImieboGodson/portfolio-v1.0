@@ -1,25 +1,14 @@
 import './preloader.scss'
 // import ProgressBar from "@ramonak/react-progress-bar";
 
-const Preloader = () => {
+const Preloader = ({ progress }) => {
   return (
     <div className='preloader'>
-        <div className='preloader-image-wrapper'>
-            <img src='assets/progressbar-1.gif' alt='preloader' className='preloader-image'/>
-            {/* <ProgressBar 
-              completed={34}
-              bgColor="#000000"
-              height="100%"
-              width="100%"
-              borderRadius=""
-              labelAlignment="outside"
-              baseBgColor="#ffffff"
-              labelColor="#000000"
-              labelSize="35px"
-              transitionDuration="15s"
-              animateOnRender
-              maxCompleted={100}
-            /> */}
+        <div className='progress-bar-wrapper'>
+          <div className='progress-bar'>
+            <div className='progress-bar-content' style={{width: `${progress}%`, height: '100%', backgroundColor: '#fff', transition: 'ease-in-out 5s'}}></div>
+          </div>
+          <p className='progress-bar-label'>{`${progress}%`}</p>
         </div>
         <div className='preloader-name-wrapper'>
           <p className='preloader-name'>Godson Imiebo</p>

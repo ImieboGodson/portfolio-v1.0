@@ -1,12 +1,12 @@
 import { useLocation } from 'react-router-dom';
-import { Projects } from '../../data';
+import { ProjectsArray } from '../../data';
 import './project.scss';
 
 const Project = () => {
 
     const location = useLocation();
     const path = location.pathname.split('/')[2]
-    const project = Projects.find(p => p.title === path)
+    const project = ProjectsArray.find(p => p.title === path)
     console.log('proj Object ', project)
 
     console.log('Location: ', path)

@@ -15,23 +15,28 @@
     align-items: center;
     z-index: 105;
 
-    .preloader-image-wrapper {
-        width: 30%;
-        height: 70px;
+    .progress-bar-wrapper {
+        width: 40%;
+        height: 90px;
         padding: 8px 20px;
         // background-color: white;
         position: fixed;
         bottom: 5%;
-        right: 17.5%;
+        right: 6.5%;
         padding: 20px 15px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
 
-        .preloader-image {
-            width: 100%;
-            // height: 100%;
-            object-fit: cover;
+        .progress-bar {
+            width: 80%;
+            height: 100%;
+        }
+
+        .progress-bar-label {
+            padding-left: 10px;
+            font-size: 2.5rem;
+            font-weight: 500;
         }
 
     }
