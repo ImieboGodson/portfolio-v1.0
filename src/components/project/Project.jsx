@@ -15,7 +15,7 @@ const Project = ({proj}) => {
                                 </div>
                                 <div className='project-details'>
                                     <p className='project-name'>{proj.name}</p>
-                                    <p className='project-type'>{proj.type}</p>
+                                    <p className='project-type'>{proj.tagline}</p>
                                 </div>
                             </div>
                         </div>
