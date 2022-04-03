@@ -9,12 +9,12 @@ import Project from './pages/project/Project';
 import Header from './components/header/Header';
 import Preloader from './components/preloader/Preloader';
 import { useEffect, useState } from 'react';
-import { ProjectsArray } from './data';
+// import { ProjectsArray } from './data';
 
 function App() {
 
-  const [loading, setLoading] = useState(false)
-  const [progress, setProgress] = useState(0)
+  const [loading, setLoading] = useState(true)
+  // const [progress, setProgress] = useState(0)
 
 
 
@@ -22,21 +22,21 @@ function App() {
 
       setLoading(true);
 
-      let progressPercentage = 0;
+      // let progressPercentage = 0;
       
-      for(let i = 0; i <= 1000; i++) {
-          progressPercentage = Math.floor((i / 1000) * 100);
+      // for(let i = 0; i <= 1000; i++) {
+      //     progressPercentage = Math.floor((i / 1000) * 100);
 
-          console.log('Progress: ', progressPercentage);
+      //     console.log('Progress: ', progressPercentage);
 
-          setProgress(progressPercentage);
-      }
+      //     setProgress(progressPercentage);
+      // }
 
-      console.log('Final Progress: ', progressPercentage);
+      // console.log('Final Progress: ', progressPercentage);
 
-      // setTimeout(() => {
-      //     setLoading(false)
-      // }, 5000)
+      setTimeout(() => {
+          setLoading(false)
+      }, 5000)
   }, []);
 
 
@@ -59,7 +59,7 @@ function App() {
                 )
                 :
                 (
-                    <Preloader progress={progress}/>
+                    <Preloader />
                 )
               }
       

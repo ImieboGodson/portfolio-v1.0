@@ -57,7 +57,6 @@ export const preLoaderAnim = () => {
         duration: 1.5,
         height: "0vh",
         ease: "Power3.easeOut",
-        onComplete: mobileLanding(),
       },
       "-=2"
     )
@@ -80,13 +79,11 @@ export const preLoaderAnim = () => {
         amount: 0.5,
       },
       ease: "expo.easeOut",
-      onComplete: animateMainShape(),
     })
     .from(".main-circle", {
       duration: 1,
       opacity: 0,
       ease: "power3.easeInOut",
-      onComplete: animateShapes(),
     })
     .from(".shapes .shape", {
       duration: 1,
