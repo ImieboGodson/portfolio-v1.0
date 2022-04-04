@@ -10,7 +10,7 @@
             justify-content: flex-start;
 
             .top-of-section-texts {
-                width: 55%;
+                width: 40%;
                 padding: 5px 0;
                 display: flex;
                 justify-content: flex-start;
@@ -90,13 +90,13 @@
 
         
         .bottom-wrapper {
-            margin-top: 50px;
+            margin-top: 100px;
             padding: 10px 20px;
 
             .bottom-smalltext-wrapper {
 
                 p {
-                    font-size: 16px;
+                    font-size: 1.3rem;
                     font-weight: 400;
                 }
             }
@@ -121,12 +121,12 @@
         
                         p {
                             margin-right: 5px;
-                            font-size: 25px;
+                            font-size: 2rem;
                             font-weight: 400;
                         }
         
                         .viewallproject-btn-icon {
-                            font-size: 2rem;
+                            font-size: 2.2rem;
                             transition: .5s ease;
                         }
                     }

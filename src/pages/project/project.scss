@@ -13,7 +13,7 @@
             background-color: #262621;
 
             .project-name {
-                font-size: 3.5rem;
+                font-size: 5rem;
                 font-weight: 700;
                 color: hsl(49, 37%, 94%);
             }
@@ -21,7 +21,7 @@
 
         .project-details-wrapper{
             height: 100vh;
-            padding-top: 70px;
+            padding-top: 200px;
 
             .abouttheprojecttext-wrapper {
 
@@ -31,11 +31,11 @@
             }
 
             .projectdetails-wrapper {
-                margin: 20px 0;
+                margin: 40px 0;
                 line-height: 35px;
 
                 .projectdetails-summary-text {
-                    font-size: 1.1rem;
+                    font-size: 1.2rem;
                 }
 
                 .projectdetails-contributors-wrapper {
@@ -56,19 +56,21 @@
                 }
 
                 .projectdetails-tools-wrapper {
-                    margin: 30px 0;
+                    margin: 40px 0;
 
                     .projectdetails-tools-header {
                         font-size: 1.5rem;
                     }
 
                     .projectdetails-tools-text {
-                        margin: 10px 0;
+                        margin: 20px 0;
+                        font-size: 1.1rem;
                     }
                 }
             }
 
             .projectdetails-buttons-wrapper {
+                margin-top: 50px;
                 padding: 20px 0;
                 display: flex;
                 justify-content: flex-start;
