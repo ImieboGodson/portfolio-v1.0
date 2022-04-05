@@ -69,3 +69,32 @@
         }
     }
 }
+
+
+//MEDIAQUIERIES
+
+@media (max-width: 1400px) {
+
+    .contact {
+    
+        .contact-wrapper {
+    
+            .contact-center-texts {
+    
+                .contact-bold-text {
+                    font-size: 3.8rem;
+                }
+    
+                .contact-small-text {
+                    margin-top: 50px;
+                    font-size: 1rem;
+                }
+            }
+    
+            .say-hello-btn {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+}

@@ -8,7 +8,7 @@
     color: #262621;
 
     .aboutMe-wrapper {
-        width: 100%;
+        // width: 100%;
 
         .top-of-section-texts-wrapper {
             display: flex;
@@ -53,42 +53,6 @@
                 }
             }
         }
-
-        // .projects-toptext {
-        //     width: 100%;
-        //     padding: 20px 0;
-    
-        //     .topmost-smalltext-wrapper {
-        //         display: flex;
-        //         align-items: center;
-    
-        //         p {
-        //             font-size: 14px;
-        //             margin-right: 10px;
-        //         }
-    
-        //         // span {
-        //         //     font-weight: 500;
-        //         // }
-        //     }
-    
-        //     .topmost-bigtext-wrapper {
-                
-        //         margin-top: 20px;
-        //         display: flex;
-        //         align-items: center;
-    
-        //         .topmost-bigtext {
-        //             font-size: 35px;
-        //             font-weight: 700;
-        //         }
-    
-        //         .folder-icon {
-        //             font-size: 45px;
-        //             margin-left: 20px;
-        //         }
-        //     }
-        // }
 
         .aboutMe-main-content-wrapper {
 
@@ -191,8 +155,55 @@
                 }
             }
         }
-        
+    } 
+}
+
+
+//MEDIAQUIERIES
+
+@media (max-width: 1400px) {
+
+    .aboutMe {
+        margin-top: 150px;
+
+        .aboutMe-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 1rem;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1.7rem;
+                        }
+                    }
+                }
+            }
+    
+            .aboutMe-main-content-wrapper {
+    
+                .aboutMe-text-main-wrapper {
+                    .aboutMe-text-main {
+                        margin-top: 100px;
+                        font-size: 3.5rem;
+                        font-weight: 300;
+                        line-height: 70px;
+                    }
+                }
+    
+                .aboutMe-stacklist-wrapper {
+                    margin-left: 400px;
+                }
+            }
+        } 
     }
 
-    
 }

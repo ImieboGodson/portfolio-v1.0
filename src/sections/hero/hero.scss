@@ -53,7 +53,7 @@
                     font-size: 1.3rem;
                     font-weight: 300px;
                     color: inherit;
-                    border-bottom: 2px solid hsl(49, 37%, 94%);
+                    border-bottom: 2px solid hsl(45, 14%, 89%);
                     // box-shadow: 3px 5px #33332d;
                     transition: .1s;
 
@@ -147,3 +147,55 @@
         }
     }
 }
+
+//MEDIAQUIERIES
+
+@media (max-width: 1400px) {
+    .hero {
+    
+        .hero-wrapper {
+    
+            .hero-left {
+                margin: 0 10px;
+                padding: 60px 60px 0 0;
+                flex: 6;
+    
+                .introTexts {
+                    margin-bottom: 30px;
+    
+                    h1 {
+                        font-size: 3.5rem;
+                    }
+        
+                    p {
+                        font-size: 1.5rem;
+    
+                        span {
+                            font-weight: 600;
+                        }
+                    }
+                }
+    
+    
+                .btnWrapper {
+                    width: 30%;
+                    // border-bottom: 1px solid #000;
+    
+                    a {
+                        font-size: 1rem;
+                        
+                        .btn-icon {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+    
+                .hero-social-links-wrapper {
+                    margin-top: 80px;
+                    
+                }
+                
+            }
+        }
+    }
+  }

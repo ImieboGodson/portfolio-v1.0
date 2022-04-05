@@ -49,41 +49,6 @@
             }
         }
 
-        // .projects-toptext {
-        //     padding: 20px 0;
-
-        //     .topmost-smalltext-wrapper {
-        //         display: flex;
-        //         align-items: center;
-
-        //         p {
-        //             font-size: 14px;
-        //             margin-right: 10px;
-        //         }
-
-        //         // span {
-        //         //     font-weight: 500;
-        //         // }
-        //     }
-
-        //     .topmost-bigtext-wrapper {
-                
-        //         margin-top: 20px;
-        //         display: flex;
-        //         align-items: center;
-
-        //         .topmost-bigtext {
-        //             font-size: 35px;
-        //             font-weight: 700;
-        //         }
-
-        //         .folder-icon {
-        //             font-size: 45px;
-        //             margin-left: 20px;
-        //         }
-        //     }
-        // }
-
         .projectlist-wrapper {
             margin-top: 100px;
         }
@@ -153,4 +118,84 @@
             
         }
     }
+}
+
+
+//MEDIAQUIERIES
+
+@media (max-width: 1400px) {
+
+    .projects {
+    
+        .projects-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 1rem;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+    
+                            .left-text-number {
+                                margin-left: 2px;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1.7rem;
+                        }
+                    }
+                }
+            }
+    
+            .projectlist-wrapper {
+                margin-top: 100px;
+            }
+    
+            
+            .bottom-wrapper {
+                margin-top: 50px;
+    
+                .bottom-smalltext-wrapper {
+    
+                    p {
+                        font-size: 1.3rem;
+                    }
+                }
+    
+                .viewallproject-btn-wrapper {
+    
+                    .viewallproject-anchorTag {
+    
+                        .viewallproject-btn {
+            
+                            p {
+                                font-size: 1.7rem;
+                            }
+            
+                            .viewallproject-btn-icon {
+                                font-size: 2rem;
+                            }
+                        }
+    
+                        .viewallproject-btn:hover {
+                            margin-left: 40px;
+                        }
+    
+                    }
+                    
+                    
+                }
+    
+                
+            }
+        }
+    }    
 }
