@@ -60,11 +60,23 @@
 
 //MEDIAQUIERIES
 
+//Extra-large-to-Large Screens
 @media (max-width: 1400px) {
   body {
     .container {
-      margin: 0 auto;
       width: 1200px;
     }
   }
+}
+
+
+//Large-to-Medium Screens
+@media (max-width: 1200px) {
+
+  body {
+    .container {
+      width: 1000px;
+    }
+  }
+
 }

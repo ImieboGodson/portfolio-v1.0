@@ -123,6 +123,7 @@
 
 //MEDIAQUIERIES
 
+//Extra-large-to-Large Screens
 @media (max-width: 1400px) {
 
     .projects {
@@ -198,4 +199,83 @@
             }
         }
     }    
+}
+
+
+//Large-to-Medium Screens
+@media (max-width: 1200px) {
+
+    .projects {
+    
+        .projects-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 45%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 1rem;
+                            }
+    
+                            .left-text-number {
+                                margin-left: 2px;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+    
+            .projectlist-wrapper {
+                margin-top: 100px;
+            }
+    
+            
+            .bottom-wrapper {
+                margin-top: 50px;
+    
+                .bottom-smalltext-wrapper {
+    
+                    p {
+                        font-size: 1.3rem;
+                    }
+                }
+    
+                .viewallproject-btn-wrapper {
+    
+                    .viewallproject-anchorTag {
+    
+                        .viewallproject-btn {
+            
+                            p {
+                                font-size: 1.5rem;
+                                font-weight: 500;
+                            }
+            
+                            .viewallproject-btn-icon {
+                                font-size: 2rem;
+                            }
+                        }
+    
+                        .viewallproject-btn:hover {
+                            margin-left: 40px;
+                        }
+    
+                    }
+                    
+                    
+                }
+    
+                
+            }
+        }
+    } 
 }

@@ -161,6 +161,7 @@
 
 //MEDIAQUIERIES
 
+//Extra-large-to-Large Screens
 @media (max-width: 1400px) {
 
     .aboutMe {
@@ -201,6 +202,57 @@
     
                 .aboutMe-stacklist-wrapper {
                     margin-left: 400px;
+                }
+            }
+        } 
+    }
+
+}
+
+
+
+//Large-to-Medium Screens
+@media (max-width: 1200px) {
+
+    .aboutMe {
+        margin-top: 150px;
+
+        .aboutMe-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 45%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 1rem;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+    
+            .aboutMe-main-content-wrapper {
+    
+                .aboutMe-text-main-wrapper {
+                    .aboutMe-text-main {
+                        margin-top: 100px;
+                        font-size: 3rem;
+                        font-weight: 300;
+                        line-height: 60px;
+                    }
+                }
+    
+                .aboutMe-stacklist-wrapper {
+                    margin-left: 360px;
                 }
             }
         } 
