@@ -43,7 +43,7 @@
       position: relative;
       margin-right:40px;
       text-decoration: underline;
-      font-size: 18px;
+      font-size: 1.2rem;
       font-style: italic;
       font-weight: 300px;
       color: #000;
@@ -76,6 +76,26 @@
   body {
     .container {
       width: 1000px;
+    }
+  }
+}
+
+
+//Medium Screens
+@media (max-width: 1000px) {
+
+  body {
+    .container {
+      width: 800px;
+    }
+
+    .socialLink {
+      margin-right: 20px;
+      font-size: 1rem;
+    }
+
+    .linkedin, .github {
+      margin-left: 20px;
     }
   }
 

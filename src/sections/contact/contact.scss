@@ -96,5 +96,32 @@
             }
         }
     }
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .contact {
+    
+        .contact-wrapper {
+    
+            .contact-center-texts {
+    
+                .contact-bold-text {
+                    font-size: 3.6rem;
+                }
+    
+                .contact-small-text {
+                    margin-top: 40px;
+                    font-size: 0.8rem;
+                }
+            }
+    
+            .say-hello-btn {
+                font-size: 1.1rem;
+            }
+        }
+    }
 
 }
