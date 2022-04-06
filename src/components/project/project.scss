@@ -142,3 +142,181 @@
         }
     }
 }
+
+
+@media (max-width: 1400px) {
+
+    .project {
+        height: 230px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .project {
+        height: 180px;
+
+        .project-wrapper {
+    
+            .project-details-wrapper {
+    
+                .project-details-left {
+    
+                    .project-deco {
+                        margin-right: 30px;
+        
+                        .project-number {
+                            font-size: 1.8rem;
+                        }
+                    }
+        
+                    .project-details {
+        
+                        .project-name {
+                            font-size: 2rem;
+                            font-weight: 700;
+                        }
+        
+                        .project-type {
+                            margin-top: 10px;
+                            font-size: 0.8rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+    
+                .project-details-right {
+                    display: flex;
+                    align-items: center;
+    
+                    .project-btn {
+                        margin-right: 40px;
+                        padding: 10px;
+                        // border: 1px solid #33332d;
+    
+                        p {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+//Medium-to-Small Screens
+@media (max-width: 900px) {
+
+    .project {
+        height: 180px;
+
+        .project-wrapper {
+    
+            .project-details-wrapper {
+    
+                .project-details-left {
+    
+                    .project-deco {
+                        margin-right: 20px;
+        
+                        .project-number {
+                            font-size: 1.6rem;
+                        }
+                    }
+        
+                    .project-details {
+        
+                        .project-name {
+                            font-size: 1.7rem;
+                            font-weight: 700;
+                        }
+        
+                        .project-type {
+                            margin-top: 10px;
+                            font-size: 0.8rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+    
+                .project-details-right {
+                    display: flex;
+                    align-items: center;
+    
+                    .project-btn {
+                        margin-right: 40px;
+                        padding: 10px;
+    
+                        p {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+//Medium-to-Small Screens
+@media (max-width: 540px) {
+
+    .project {
+        height: 100px;
+
+        .project-wrapper {
+    
+            .project-details-wrapper {
+    
+                .project-details-left {
+    
+                    .project-deco {
+                        margin-right: 10px;
+
+                        .line {
+                            width: 10px;
+                            margin-right: .3rem;
+                        }
+        
+                        .project-number {
+                            font-size: 0.7rem;
+                        }
+                    }
+        
+                    .project-details {
+                        padding: 10px;
+        
+                        .project-name {
+                            font-size: 1rem;
+                            font-weight: 700;
+                        }
+        
+                        .project-type {
+                            margin-top: 5px;
+                            font-size: 0.5rem;
+                        }
+                    }
+                }
+    
+                .project-details-right {
+                    display: flex;
+                    align-items: center;
+    
+                    .project-btn {
+                        margin-right: 40px;
+                        padding: 10px;
+    
+                        p {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

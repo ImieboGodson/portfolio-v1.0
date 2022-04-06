@@ -43,7 +43,7 @@
       position: relative;
       margin-right:40px;
       text-decoration: underline;
-      font-size: 18px;
+      font-size: 1.2rem;
       font-style: italic;
       font-weight: 300px;
       color: #000;
@@ -53,6 +53,92 @@
     .socialLink:hover::after {
         transform: scaleX(1);
         transform-origin: left center 0;
+    }
+  }
+}
+
+
+//MEDIAQUIERIES
+
+//Extra-large-to-Large Screens
+@media (max-width: 1400px) {
+  body {
+    .container {
+      width: 1200px;
+    }
+  }
+}
+
+
+//Large-to-Medium Screens
+@media (max-width: 1200px) {
+
+  body {
+    .container {
+      width: 1000px;
+    }
+  }
+}
+
+
+//Medium Screens
+@media (max-width: 1024px) {
+
+  body {
+    .container {
+      width: 800px;
+    }
+
+    .socialLink {
+      margin-right: 20px;
+      font-size: 1rem;
+    }
+
+    .linkedin, .github {
+      margin-left: 20px;
+    }
+  }
+}
+
+
+//Medium-to-Small Screens
+@media (max-width: 920px) {
+
+  body {
+    .container {
+      width: 720px;
+    }
+  }
+}
+
+
+
+//Medium-to-Small Screens
+@media (max-width: 900px) {
+
+  body {
+    .container {
+      width: 700px;
+    }
+  }
+}
+
+
+//Medium-to-Small Screens
+@media (max-width: 540px) {
+
+  body {
+    .container {
+      width: 320px;
+    }
+
+    .socialLink {
+      margin-right: 10px;
+      font-size: 0.8rem;
+    }
+
+    .linkedin, .github {
+      margin-left: 10px;
     }
   }
 }

@@ -49,41 +49,6 @@
             }
         }
 
-        // .projects-toptext {
-        //     padding: 20px 0;
-
-        //     .topmost-smalltext-wrapper {
-        //         display: flex;
-        //         align-items: center;
-
-        //         p {
-        //             font-size: 14px;
-        //             margin-right: 10px;
-        //         }
-
-        //         // span {
-        //         //     font-weight: 500;
-        //         // }
-        //     }
-
-        //     .topmost-bigtext-wrapper {
-                
-        //         margin-top: 20px;
-        //         display: flex;
-        //         align-items: center;
-
-        //         .topmost-bigtext {
-        //             font-size: 35px;
-        //             font-weight: 700;
-        //         }
-
-        //         .folder-icon {
-        //             font-size: 45px;
-        //             margin-left: 20px;
-        //         }
-        //     }
-        // }
-
         .projectlist-wrapper {
             margin-top: 100px;
         }
@@ -153,4 +118,375 @@
             
         }
     }
+}
+
+
+//MEDIAQUIERIES
+
+//Extra-large-to-Large Screens
+@media (max-width: 1400px) {
+
+    .projects {
+    
+        .projects-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 1rem;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+    
+                            .left-text-number {
+                                margin-left: 2px;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1.7rem;
+                        }
+                    }
+                }
+            }
+    
+            .projectlist-wrapper {
+                margin-top: 100px;
+            }
+    
+            
+            .bottom-wrapper {
+                margin-top: 50px;
+    
+                .bottom-smalltext-wrapper {
+    
+                    p {
+                        font-size: 1.3rem;
+                    }
+                }
+    
+                .viewallproject-btn-wrapper {
+    
+                    .viewallproject-anchorTag {
+    
+                        .viewallproject-btn {
+            
+                            p {
+                                font-size: 1.7rem;
+                            }
+            
+                            .viewallproject-btn-icon {
+                                font-size: 2rem;
+                            }
+                        }
+    
+                        .viewallproject-btn:hover {
+                            margin-left: 40px;
+                        }
+    
+                    }
+                    
+                    
+                }
+    
+                
+            }
+        }
+    }    
+}
+
+
+//Large-to-Medium Screens
+@media (max-width: 1200px) {
+
+    .projects {
+    
+        .projects-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 45%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 1rem;
+                            }
+    
+                            .left-text-number {
+                                margin-left: 2px;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+    
+            .projectlist-wrapper {
+                margin-top: 100px;
+            }
+    
+            
+            .bottom-wrapper {
+                margin-top: 50px;
+    
+                .bottom-smalltext-wrapper {
+    
+                    p {
+                        font-size: 1.3rem;
+                    }
+                }
+    
+                .viewallproject-btn-wrapper {
+    
+                    .viewallproject-anchorTag {
+    
+                        .viewallproject-btn {
+            
+                            p {
+                                font-size: 1.5rem;
+                                font-weight: 500;
+                            }
+            
+                            .viewallproject-btn-icon {
+                                font-size: 2rem;
+                            }
+                        }
+    
+                        .viewallproject-btn:hover {
+                            margin-left: 40px;
+                        }
+                    } 
+                }
+            }
+        }
+    } 
+}
+
+
+//Medium Screens
+@media (max-width: 1024px) {
+
+    .projects {
+    
+        .projects-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 45%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 0.8rem;
+                            }
+    
+                            .left-text-number {
+                                margin-left: 2px;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+    
+            .projectlist-wrapper {
+                margin-top: 100px;
+            }
+    
+            
+            .bottom-wrapper {
+                margin-top: 50px;
+    
+                .bottom-smalltext-wrapper {
+    
+                    p {
+                        font-size: 1.2rem;
+                    }
+                }
+    
+                .viewallproject-btn-wrapper {
+    
+                    .viewallproject-anchorTag {
+    
+                        .viewallproject-btn {
+            
+                            p {
+                                font-size: 1.4rem;
+                                font-weight: 500;
+                            }
+            
+                            .viewallproject-btn-icon {
+                                font-size: 1.8rem;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    } 
+}
+
+
+
+//Medium-to-Small Screens
+@media (max-width: 920px) {
+
+    .projects {
+    
+        .projects-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 49%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 0.7rem;
+                            }
+    
+                            .left-text-number {
+                                margin-left: 2px;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+    
+            .projectlist-wrapper {
+                margin-top: 100px;
+            }
+    
+            
+            .bottom-wrapper {
+                margin-top: 30px;
+    
+                .bottom-smalltext-wrapper {
+    
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+    
+                .viewallproject-btn-wrapper {
+    
+                    .viewallproject-anchorTag {
+    
+                        .viewallproject-btn {
+            
+                            p {
+                                font-size: 1.2rem;
+                                font-weight: 500;
+                            }
+            
+                            .viewallproject-btn-icon {
+                                font-size: 1.8rem;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    } 
+}
+
+
+
+//Medium-to-Small Screens
+@media (max-width: 540px) {
+
+    .projects {
+    
+        .projects-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 85%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 0.5rem;
+                            }
+    
+                            .left-text-number {
+                                margin-left: 2px;
+                            }
+                        }
+    
+                        p {
+                            font-size: 0.7rem;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+    
+            .projectlist-wrapper {
+                margin-top: 40px;
+            }
+    
+            
+            .bottom-wrapper {
+                margin-top: 20px;
+    
+                .bottom-smalltext-wrapper {
+    
+                    p {
+                        font-size: 0.7rem;
+                    }
+                }
+    
+                .viewallproject-btn-wrapper {
+    
+                    .viewallproject-anchorTag {
+    
+                        .viewallproject-btn {
+                            margin-top: 20px;
+            
+                            p {
+                                font-size: 0.9rem;
+                                font-weight: 700;
+                            }
+            
+                            .viewallproject-btn-icon {
+                                font-size: 1.1rem;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    } 
+    
 }
