@@ -258,5 +258,65 @@
             }
         }
     }
+}
 
+
+
+//Medium-to-Small Screens
+@media (max-width: 540px) {
+
+    .project {
+        height: 100px;
+
+        .project-wrapper {
+    
+            .project-details-wrapper {
+    
+                .project-details-left {
+    
+                    .project-deco {
+                        margin-right: 10px;
+
+                        .line {
+                            width: 10px;
+                            margin-right: .3rem;
+                        }
+        
+                        .project-number {
+                            font-size: 0.7rem;
+                        }
+                    }
+        
+                    .project-details {
+                        padding: 10px;
+        
+                        .project-name {
+                            font-size: 1rem;
+                            font-weight: 700;
+                        }
+        
+                        .project-type {
+                            margin-top: 5px;
+                            font-size: 0.5rem;
+                        }
+                    }
+                }
+    
+                .project-details-right {
+                    display: flex;
+                    align-items: center;
+    
+                    .project-btn {
+                        margin-right: 40px;
+                        padding: 10px;
+    
+                        p {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
 }

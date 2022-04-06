@@ -29,44 +29,6 @@
                 line-height: 13px;
                 letter-spacing: 3px;
             }
-
-            // .logo-wrapper {
-            //     position: relative;
-            //     padding: 6px;
-            //     border-radius: 3px 0;
-            //     background-color: transparent;
-            //     font-size: 18px;
-            //     font-weight: 600;
-    
-            //     .logo {
-            //         overflow: hidden;
-            //     }
-            // }
-    
-            // .logo-wrapper:before {
-            //     top: 0;
-            //     left: 0;
-            // }
-    
-            // .logo-wrapper:after {
-            //     bottom: 0;
-            //     right: 0;
-            // }
-    
-            // .logo-wrapper:before, .logo-wrapper:after {
-            //     z-index: 2;
-            //     content: "";
-            //     border: 2px solid #33332d;
-            //     border-radius: 5px;
-            //     position: absolute;
-            //     width: calc(100% + 1px);
-            //     height: calc(100% + 1px);
-            // }
-
-            // .logo-wrapper:hover {
-            //     background-color: #33332d;
-            //     color: hsl(49, 37%, 94%);
-            // }
         }
 
         .nav-links {
@@ -96,3 +58,90 @@
         }
     }
 }
+
+
+//Extra-large-to-Large Screens
+@media (max-width: 1400px) {
+
+    .header {
+        padding: 0 20px;
+
+        .wrapper {
+            
+            .logo-link {
+                margin-left: 10px;
+    
+                .logo-letters {
+                    font-size: 1rem;
+                    line-height: 13px;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+}
+
+//Medium Screens
+@media (max-width: 1024px) {
+
+    .header {
+        padding: 0 60px;
+
+        .wrapper {
+            
+            .logo-link {
+                margin-left: 10px;
+    
+                .logo-letters {
+                    font-size: 1rem;
+                    line-height: 13px;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+}
+
+//Medium-to-Small Screens
+@media (max-width: 920px) {
+
+    .header {
+        padding: 0 20px;
+
+        .wrapper {
+            
+            .logo-link {
+                margin-left: 10px;
+    
+                .logo-letters {
+                    font-size: 0.8rem;
+                    line-height: 10px;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+}
+
+
+//Medium-to-Small Screens
+@media (max-width: 540px) {
+
+    .header {
+        padding: 0 10px;
+
+        .wrapper {
+            
+            .logo-link {
+                margin-left: 10px;
+    
+                .logo-letters {
+                    font-size: 0.6rem;
+                    line-height: 7.8px;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+    
+  }

@@ -369,7 +369,7 @@
 
 
 //Medium-to-Small Screens
-@media (max-width: 900px) {
+@media (max-width: 920px) {
 
     .aboutMe {
         margin-top: 150px;
@@ -403,7 +403,7 @@
                 .aboutMe-text-main-wrapper {
                     .aboutMe-text-main {
                         margin-top: 100px;
-                        font-size: 2.2rem;
+                        font-size: 2.4rem;
                         font-weight: 300;
                         line-height: 45px;
                     }
@@ -471,4 +471,139 @@
             }
         } 
     }
+}
+
+
+
+@media (max-width: 900px) {
+
+    .aboutMe {
+        margin-top: 150px;
+
+        .aboutMe-wrapper {
+    
+            .aboutMe-main-content-wrapper {
+    
+                .aboutMe-text-main-wrapper {
+                    .aboutMe-text-main {
+                        font-size: 2.3rem;
+                    }
+                }
+            }
+        } 
+    }
+}
+
+
+
+//Medium-to-Small Screens
+@media (max-width: 540px) {
+
+    .aboutMe {
+        margin-top: 150px;
+
+        .aboutMe-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 85%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 0.5rem;
+                            }
+                        }
+    
+                        p {
+                            font-size: 0.7rem;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+    
+            .aboutMe-main-content-wrapper {
+    
+                .aboutMe-text-main-wrapper {
+                    margin-top: 50px;
+                    background-color: #262621;
+                    padding: 30px 15px;
+                    border-radius: 5px;
+
+                    .aboutMe-text-main {
+                        color: hsl(49, 37%, 94%);
+                        margin-top: 0;
+                        font-size: 1.6rem;
+                        font-weight: 300;
+                        line-height: 35px;
+                    }
+                }
+    
+                .aboutMe-stacklist-wrapper {
+                    margin-left: 0;
+
+                    p {
+                        width: 280px;
+                        font-size: 0.8rem;
+                        line-height: 15px;
+    
+                        span {
+                            font-weight: 700;
+                            font-size: 1rem;
+                            text-decoration: underline;
+                            letter-spacing: -2px;
+                        }
+                        
+                    }
+
+                    .aboutMe-links {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                .aboutMe-hobbies-wrapper {
+                    margin-top: 30px;
+    
+                    p {
+                        width: 280px;
+                        font-size: 0.8rem;
+                        line-height: 15px;
+    
+                        span {
+                            font-size: 1rem;
+                        }
+                        
+                        .aboutMe-links {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+
+                .aboutMe-quote-wrapper {
+    
+                    p {
+                        width: 100%;
+                        font-size: 0.65rem;
+                        line-height: 15px;
+    
+                        span {
+                            font-size: 0.8rem;
+                        }
+                        
+                        .aboutMe-links {
+                            color: #262621;
+                            font-weight: 700;
+                            font-size: 1rem;
+                            letter-spacing: -2px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    
 }

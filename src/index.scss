@@ -102,11 +102,43 @@
 
 
 //Medium-to-Small Screens
+@media (max-width: 920px) {
+
+  body {
+    .container {
+      width: 720px;
+    }
+  }
+}
+
+
+
+//Medium-to-Small Screens
 @media (max-width: 900px) {
 
   body {
     .container {
       width: 700px;
+    }
+  }
+}
+
+
+//Medium-to-Small Screens
+@media (max-width: 540px) {
+
+  body {
+    .container {
+      width: 320px;
+    }
+
+    .socialLink {
+      margin-right: 10px;
+      font-size: 0.8rem;
+    }
+
+    .linkedin, .github {
+      margin-left: 10px;
     }
   }
 }
