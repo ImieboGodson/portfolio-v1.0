@@ -277,7 +277,7 @@
 
 
 //Medium Screens
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
     .projects {
     
@@ -331,6 +331,78 @@
             
                             p {
                                 font-size: 1.4rem;
+                                font-weight: 500;
+                            }
+            
+                            .viewallproject-btn-icon {
+                                font-size: 1.8rem;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    } 
+}
+
+
+
+//Medium-to-Small Screens
+@media (max-width: 900px) {
+
+    .projects {
+    
+        .projects-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 49%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 0.7rem;
+                            }
+    
+                            .left-text-number {
+                                margin-left: 2px;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+    
+            .projectlist-wrapper {
+                margin-top: 100px;
+            }
+    
+            
+            .bottom-wrapper {
+                margin-top: 30px;
+    
+                .bottom-smalltext-wrapper {
+    
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+    
+                .viewallproject-btn-wrapper {
+    
+                    .viewallproject-anchorTag {
+    
+                        .viewallproject-btn {
+            
+                            p {
+                                font-size: 1.2rem;
                                 font-weight: 500;
                             }
             

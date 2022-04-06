@@ -263,7 +263,7 @@
 
 
 //Medium Screens
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
     .aboutMe {
         margin-top: 150px;
@@ -364,5 +364,111 @@
             }
         } 
     }
+}
 
+
+
+//Medium-to-Small Screens
+@media (max-width: 900px) {
+
+    .aboutMe {
+        margin-top: 150px;
+
+        .aboutMe-wrapper {
+    
+            .top-of-section-texts-wrapper {
+    
+                .top-of-section-texts {
+                    width: 49%;
+    
+                    .top-of-section-texts-items {
+    
+                        .left-text {
+    
+                            .smaller-left-text {
+                                font-size: 0.6rem;
+                            }
+                        }
+    
+                        p {
+                            font-size: 1rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+    
+            .aboutMe-main-content-wrapper {
+    
+                .aboutMe-text-main-wrapper {
+                    .aboutMe-text-main {
+                        margin-top: 100px;
+                        font-size: 2.2rem;
+                        font-weight: 300;
+                        line-height: 45px;
+                    }
+                }
+    
+                .aboutMe-stacklist-wrapper {
+                    margin-left: 260px;
+
+                    p {
+                        width: 310px;
+                        font-size: 0.9rem;
+                        line-height: 15px;
+    
+                        span {
+                            font-weight: 700;
+                            font-size: 0.8rem;
+                            text-decoration: underline;
+                            letter-spacing: -2px;
+                        }
+                        
+                    }
+
+                    .aboutMe-links {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                .aboutMe-hobbies-wrapper {
+                    margin-top: 30px;
+    
+                    p {
+                        width: 380px;
+                        font-size: 0.9rem;
+                        line-height: 15px;
+    
+                        span {
+                            font-size: 0.8rem;
+                        }
+                        
+                        .aboutMe-links {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+
+                .aboutMe-quote-wrapper {
+    
+                    p {
+                        width: 80%;
+                        font-size: 0.8rem;
+                        line-height: 15px;
+    
+                        span {
+                            font-size: 0.8rem;
+                        }
+                        
+                        .aboutMe-links {
+                            color: #262621;
+                            font-weight: 700;
+                            font-size: 1rem;
+                            letter-spacing: -2px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
 }

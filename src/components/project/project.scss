@@ -152,9 +152,111 @@
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
     .project {
-        height: 210px;
+        height: 180px;
+
+        .project-wrapper {
+    
+            .project-details-wrapper {
+    
+                .project-details-left {
+    
+                    .project-deco {
+                        margin-right: 30px;
+        
+                        .project-number {
+                            font-size: 1.8rem;
+                        }
+                    }
+        
+                    .project-details {
+        
+                        .project-name {
+                            font-size: 2rem;
+                            font-weight: 700;
+                        }
+        
+                        .project-type {
+                            margin-top: 10px;
+                            font-size: 0.8rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+    
+                .project-details-right {
+                    display: flex;
+                    align-items: center;
+    
+                    .project-btn {
+                        margin-right: 40px;
+                        padding: 10px;
+                        // border: 1px solid #33332d;
+    
+                        p {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
     }
+}
+
+
+
+//Medium-to-Small Screens
+@media (max-width: 900px) {
+
+    .project {
+        height: 180px;
+
+        .project-wrapper {
+    
+            .project-details-wrapper {
+    
+                .project-details-left {
+    
+                    .project-deco {
+                        margin-right: 20px;
+        
+                        .project-number {
+                            font-size: 1.6rem;
+                        }
+                    }
+        
+                    .project-details {
+        
+                        .project-name {
+                            font-size: 1.7rem;
+                            font-weight: 700;
+                        }
+        
+                        .project-type {
+                            margin-top: 10px;
+                            font-size: 0.8rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+    
+                .project-details-right {
+                    display: flex;
+                    align-items: center;
+    
+                    .project-btn {
+                        margin-right: 40px;
+                        padding: 10px;
+    
+                        p {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }

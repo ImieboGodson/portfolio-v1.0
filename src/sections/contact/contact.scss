@@ -82,17 +82,21 @@
             .contact-center-texts {
     
                 .contact-bold-text {
-                    font-size: 3.8rem;
+                    font-size: 4.2rem;
                 }
     
                 .contact-small-text {
-                    margin-top: 50px;
+                    margin-top: 60px;
                     font-size: 1rem;
                 }
             }
     
             .say-hello-btn {
-                font-size: 1.3rem;
+                font-size: 1.4rem;
+
+                .say-hello-btn-icon {
+                    font-size: 1.5rem;
+                }
             }
         }
     }
@@ -100,7 +104,7 @@
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
     .contact {
     
@@ -114,12 +118,44 @@
     
                 .contact-small-text {
                     margin-top: 40px;
-                    font-size: 0.8rem;
+                    font-size: 0.9rem;
                 }
             }
     
             .say-hello-btn {
                 font-size: 1.1rem;
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+
+    .contact {
+        height: fit-content;
+        padding: 20px 0 60px 0;
+    
+        .contact-wrapper {
+    
+            .contact-center-texts {
+    
+                .contact-bold-text {
+                    font-size: 3rem;
+                }
+    
+                .contact-small-text {
+                    margin-top: 20px;
+                    font-size: 0.7rem;
+                }
+            }
+    
+            .say-hello-btn {
+                margin-top: 40px;
+                padding: 10px 15px;
+                font-size: 0.9rem;
             }
         }
     }

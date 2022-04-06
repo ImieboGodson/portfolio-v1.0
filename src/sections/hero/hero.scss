@@ -153,12 +153,13 @@
 //Extra-large-to-Large Screens
 @media (max-width: 1400px) {
     .hero {
+        margin-top: 0;
     
         .hero-wrapper {
     
             .hero-left {
                 margin: 0 10px;
-                padding: 60px 60px 0 0;
+                padding: 60px 0 0 0;
                 flex: 6;
     
                 .introTexts {
@@ -179,7 +180,7 @@
     
     
                 .btnWrapper {
-                    width: 30%;
+                    width: 29%;
                     // border-bottom: 1px solid #000;
     
                     a {
@@ -206,13 +207,13 @@
 @media (max-width: 1200px) {
 
     .hero {
-        margin-top: 50px;
+        // margin-top: 50px;
     
         .hero-wrapper {
     
             .hero-left {
                 margin: 0 10px;
-                padding: 60px 60px 0 0;
+                // padding: 60px 60px 0 0;
                 flex: 6;
     
                 .introTexts {
@@ -248,13 +249,31 @@
                 
             }
         }
+
+
+        .scrolldown-wrapper {
+            
+            .scrolldown {
+                bottom: 22%;
+        
+                .scrolldown-text {
+                    font-size: 0.8rem
+                }
+        
+                .scrolldown-icon {
+                    margin-left: 2px;
+                    font-size: 1.6rem;
+                    transform: rotate(-90deg);
+                }
+            }
+        }
     }
 
   }
 
 
 //Medium Screens
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
     .hero {
         margin-top: 50px;
@@ -263,7 +282,7 @@
     
             .hero-left {
                 margin: 0 10px;
-                padding: 60px 60px 0 0;
+                padding: 60px 0 0 0;
                 flex: 6;
     
                 .introTexts {
@@ -299,7 +318,90 @@
                 
             }
         }
+
+        .scrolldown-wrapper {
+            
+            .scrolldown {
+                bottom: 33%;
+        
+                .scrolldown-text {
+                    font-size: 0.7rem
+                }
+        
+                .scrolldown-icon {
+                    margin-left: 2px;
+                    font-size: 1.4rem;
+                    transform: rotate(-90deg);
+                }
+            }
+        }
     }
+}
 
 
+//Medium-to-Small Screens
+@media (max-width: 900px) {
+
+    .hero {
+        // margin-top: 50px;
+        height: fit-content;
+    
+        .hero-wrapper {
+    
+            .hero-left {
+                margin: 0 10px;
+                // padding: 60px 0 0 0;
+                flex: 6;
+    
+                .introTexts {
+                    margin-bottom: 30px;
+    
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+        
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+    
+    
+                .btnWrapper {
+                    width: 40%;
+                    // border-bottom: 1px solid #000;
+    
+                    a {
+                        font-size: 0.8rem;
+                        
+                        .btn-icon {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+    
+                .hero-social-links-wrapper {
+                    margin-top: 70px;
+                    
+                }
+                
+            }
+        }
+
+        .scrolldown-wrapper {
+            
+            .scrolldown {
+                bottom: 12%;
+        
+                .scrolldown-text {
+                    font-size: 0.7rem
+                }
+        
+                .scrolldown-icon {
+                    margin-left: 2px;
+                    font-size: 1.4rem;
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+    }
 }

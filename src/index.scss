@@ -82,7 +82,7 @@
 
 
 //Medium Screens
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
   body {
     .container {
@@ -98,5 +98,15 @@
       margin-left: 20px;
     }
   }
+}
 
+
+//Medium-to-Small Screens
+@media (max-width: 900px) {
+
+  body {
+    .container {
+      width: 700px;
+    }
+  }
 }
