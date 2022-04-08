@@ -131,7 +131,7 @@
             justify-content: space-between;
             position: absolute;
             bottom: 14%;
-            right: -20px;
+            right: -10px;
             transform: rotate(90deg);
             cursor: pointer;
     
@@ -207,7 +207,7 @@
 @media (max-width: 1200px) {
 
     .hero {
-        // margin-top: 50px;
+        margin-top: 70px;
     
         .hero-wrapper {
     
@@ -343,7 +343,6 @@
 @media (max-width: 920px) {
 
     .hero {
-        // margin-top: 50px;
         height: fit-content;
     
         .hero-wrapper {
@@ -411,7 +410,7 @@
 @media (max-width: 540px) {
 
     .hero {
-        margin-top: 70px;
+        // margin-top: 70px;
         padding-bottom: 20px;
         height: fit-content;
     
@@ -460,7 +459,7 @@
         .scrolldown-wrapper {
             
             .scrolldown {
-                bottom: 8%;
+                bottom: 50%;
         
                 .scrolldown-text {
                     font-size: 0.5rem
