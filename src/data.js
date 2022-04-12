@@ -27,7 +27,7 @@ export const ProjectsArray = [
         discription: `This project is centered on enabling people within the tech ecosystem to share/get insights about issues encountered in the tech ecosystem. Many developers, as well as non-developers, have so many information ranging from project ideas to problems or solution to problems they have encountered that they wish to share in other to get solutions or feedback from peers in the ecosystem. This platform will serve as a "dumping ground" of information(problems/solutions/project ideas/insights) for the tech bros and sisters in the ecosystem.`,
         tools: ['REACTJS', 'CSS3', 'Redux', 'JavaScript', 'Figma'],
         githubLink: 'https://github.com/ImieboGodson/creer-fe-pjt-105',
-        liveLink: 'https://zuri-training.github.io/creer-fe-pjt-105/',
+        liveLink: 'https://creer.vercel.app/',
     },
     {
         id: 4,
