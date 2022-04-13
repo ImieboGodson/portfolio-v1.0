@@ -7,7 +7,7 @@ export const ProjectsArray = [
         discription: `This project is a result of experimental thoughts of what the idea notes app should feel and function like. It will continue to evolve and take different shapes and style, as I continue to redefine what the idea notes app is to me. The goal is to create a notes application I am continuously happy to use and maintain.`,
         tools: ['ReactJS', 'HTML5', 'CSS3'],
         githubLink: 'https://github.com/ImieboGodson/notes-app',
-        liveLink: '',
+        liveLink: 'https://dotnotes.vercel.app/',
     },
     {
         id: 2,
