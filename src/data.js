@@ -7,7 +7,7 @@ export const ProjectsArray = [
         discription: `This project is a result of experimental thoughts of what the idea notes app should feel and function like. It will continue to evolve and take different shapes and style, as I continue to redefine what the idea notes app is to me. The goal is to create a notes application I am continuously happy to use and maintain.`,
         tools: ['ReactJS', 'HTML5', 'CSS3'],
         githubLink: 'https://github.com/ImieboGodson/notes-app',
-        liveLink: '',
+        liveLink: 'https://dotnotes.vercel.app/',
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ export const ProjectsArray = [
         discription: `This project is centered on enabling people within the tech ecosystem to share/get insights about issues encountered in the tech ecosystem. Many developers, as well as non-developers, have so many information ranging from project ideas to problems or solution to problems they have encountered that they wish to share in other to get solutions or feedback from peers in the ecosystem. This platform will serve as a "dumping ground" of information(problems/solutions/project ideas/insights) for the tech bros and sisters in the ecosystem.`,
         tools: ['REACTJS', 'CSS3', 'Redux', 'JavaScript', 'Figma'],
         githubLink: 'https://github.com/ImieboGodson/creer-fe-pjt-105',
-        liveLink: 'https://zuri-training.github.io/creer-fe-pjt-105/',
+        liveLink: 'https://creer.vercel.app/',
     },
     {
         id: 4,
