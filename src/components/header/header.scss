@@ -25,6 +25,11 @@
             text-decoration: none;
             color: inherit;
 
+            .logo-link:after {
+                color: hsl(49, 37%, 94%);
+                mix-blend-mode: difference;
+            }
+
             .logo-letters {
                 line-height: 13px;
                 letter-spacing: 3px;
