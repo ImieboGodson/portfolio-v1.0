@@ -17,7 +17,7 @@ const Hero = () => {
               </div>
               <div className='hero-social-links-wrapper'>
                 <a href='https://twitter.com/dev_oye' target='_blank' rel='noreferrer' className='socialLink twitter'>Twitter</a>/
-                <a href='https://www.linkedin.com/in/godson-imiebo-3b9878190/' target='_blank' rel='noreferrer' className='socialLink linkedin'>LinkedIn</a>/
+                <a href='https://www.linkedin.com/in/godson-imiebo/' target='_blank' rel='noreferrer' className='socialLink linkedin'>LinkedIn</a>/
                 <a href='https://github.com/ImieboGodson' target='_blank' rel='noreferrer' className='socialLink github'>Github</a>
               </div>
             </div>
