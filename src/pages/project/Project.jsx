@@ -7,13 +7,6 @@ const Project = () => {
     const location = useLocation();
     const path = location.pathname.split('/')[2]
     const project = ProjectsArray.find(p => p.title === path)
-    console.log('proj Object ', project)
-
-    console.log('Location: ', path)
-
-    console.log(project.tools.map((p) => {
-        return p;
-    }))
 
   return (
     <div className='project-page'>
@@ -27,24 +20,15 @@ const Project = () => {
                 </div>
                 <div className='projectdetails-wrapper'>
                     <p className='projectdetails-summary-text'>
-                    {project.discription}
-                    {/* Movx is a React JS application that lets you browse for movies, tv-shows and actors. You can watch trailers, add or remove certain movie to your favorites collection and discover upcoming or trending movies. This application was built with React JS, Redux with Redux-Saga for better handling side effects and asynchronous operations and TMDB API for consuming all the data. You can view the source code on my github repository. */}
+                        {project.discription}
                     </p>
-                    {/* <div className='projectdetails-contributors-wrapper'>
-                        <h3 className='projectdetails-contributors-header'>Credits</h3>
-                        <div className='projectdetails-contributors-list-wrapper'>
-                            <div className='projectdetails-contributor'>
-                                <h3 className='projectdetails-contributor-header'>Designer</h3>
-                                <p className='projectdetails-contributor-text'></p>
-                            </div>
-                        </div>
-                    </div> */}
                     <div className='projectdetails-tools-wrapper'>
                         <h3 className='projectdetails-tools-header'>Tools & Technologies</h3>
                         <p className='projectdetails-tools-text'>{project.tools.map((p) => {
                             return p + '  /  ';
                         })}</p>
                     </div>
+                    {/* <div className='project-status-wrapper'><p className='project-status'>Not Completed</p></div> */}
                     <div className='projectdetails-buttons-wrapper'>
                         <a href={`${project.githubLink}`} target='_blank' rel='noreferrer' className='projectdetails-button'>_Github Repo</a>
                         <a href={`${project.liveLink}`} target='_blank' rel='noreferrer' className='projectdetails-button'>_Live Link</a>
