@@ -94,7 +94,7 @@
             .image-wrapper {
                 position: absolute;
                 width: 50%;
-                height: 75%;
+                padding-top: 20px;
                 animation: float 3s ease infinite;
 
                 .statue-image {
@@ -117,35 +117,6 @@
             }
         }
     }
-
-    .scrolldown-wrapper {
-        color: inherit;
-        text-decoration: none;
-        
-        .scrolldown {
-            height: 50px;
-            // width: 200px;
-            font-size: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            position: absolute;
-            bottom: 14%;
-            right: -10px;
-            transform: rotate(90deg);
-            cursor: pointer;
-    
-            .scrolldown-text {
-                font-size: 0.8rem
-            }
-    
-            .scrolldown-icon {
-                margin-left: 2px;
-                font-size: 1.6rem;
-                transform: rotate(-90deg);
-            }
-        }
-    }
 }
 
 //MEDIAQUIERIES
@@ -153,7 +124,7 @@
 //Extra-large-to-Large Screens
 @media (max-width: 1400px) {
     .hero {
-        margin-top: 0;
+        margin-top: 50px;
     
         .hero-wrapper {
     
@@ -249,24 +220,6 @@
                 
             }
         }
-
-
-        .scrolldown-wrapper {
-            
-            .scrolldown {
-                bottom: 22%;
-        
-                .scrolldown-text {
-                    font-size: 0.8rem
-                }
-        
-                .scrolldown-icon {
-                    margin-left: 2px;
-                    font-size: 1.6rem;
-                    transform: rotate(-90deg);
-                }
-            }
-        }
     }
 
   }
@@ -318,23 +271,6 @@
                 
             }
         }
-
-        .scrolldown-wrapper {
-            
-            .scrolldown {
-                bottom: 16%;
-        
-                .scrolldown-text {
-                    font-size: 0.7rem
-                }
-        
-                .scrolldown-icon {
-                    margin-left: 2px;
-                    font-size: 1.4rem;
-                    transform: rotate(-90deg);
-                }
-            }
-        }
     }
 }
 
@@ -383,23 +319,6 @@
                     
                 }
                 
-            }
-        }
-
-        .scrolldown-wrapper {
-            
-            .scrolldown {
-                bottom: 12%;
-        
-                .scrolldown-text {
-                    font-size: 0.7rem
-                }
-        
-                .scrolldown-icon {
-                    margin-left: 2px;
-                    font-size: 1.4rem;
-                    transform: rotate(-90deg);
-                }
             }
         }
     }
@@ -453,23 +372,6 @@
                     
                 }
                 
-            }
-        }
-
-        .scrolldown-wrapper {
-            
-            .scrolldown {
-                top: 2%;
-        
-                .scrolldown-text {
-                    font-size: 0.5rem
-                }
-        
-                .scrolldown-icon {
-                    margin-left: 2px;
-                    font-size: 1rem;
-                    transform: rotate(-90deg);
-                }
             }
         }
     }
