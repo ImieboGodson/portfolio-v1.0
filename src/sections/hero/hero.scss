@@ -40,7 +40,7 @@
 
 
             .btnWrapper {
-                width: 32.5%;
+                width: fit-content;
                 // border-bottom: 1px solid #000;
 
                 a {
@@ -48,6 +48,7 @@
                     justify-content: space-between;
                     align-items: center;
                     // margin-left: 4px;
+                    gap: 4px;
                     padding: 10px 25px 3px 0;
                     text-decoration: none;
                     font-size: 1.3rem;
@@ -151,7 +152,7 @@
     
     
                 .btnWrapper {
-                    width: 35%;
+                    width: fit-content;
                     // border-bottom: 1px solid #000;
     
                     a {
@@ -201,7 +202,7 @@
     
     
                 .btnWrapper {
-                    width: 35%;
+                    width: fit-content;
                     // border-bottom: 1px solid #000;
     
                     a {
@@ -252,7 +253,7 @@
     
     
                 .btnWrapper {
-                    width: 45%;
+                    width: fit-content;
                     // border-bottom: 1px solid #000;
     
                     a {
@@ -302,7 +303,7 @@
     
     
                 .btnWrapper {
-                    width: 48%;
+                    width: fit-content;
                     // border-bottom: 1px solid #000;
     
                     a {
@@ -355,7 +356,7 @@
     
     
                 .btnWrapper {
-                    width: 50%;
+                    width: fit-content;
                     // border-bottom: 1px solid #000;
     
                     a {
