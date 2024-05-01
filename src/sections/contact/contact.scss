@@ -67,6 +67,33 @@
                 z-index: -50;
             }
         }
+
+        .footer-social-links-wrapper {
+            // border: 1px solid #000;
+            margin: 40px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                color: inherit;
+            }
+
+            .footer-social-links {
+                margin: 0 30px;
+                padding: 5px;
+                font-size: 3.5rem;
+                border-radius: 0.5rem;
+                border: 1px solid hsl(49, 37%, 94%);
+                transition: .5s;
+            }
+
+            .footer-social-links:hover {
+                background-color: #33332d;
+                color: hsl(49, 37%, 94%);
+                border-color: #33332d;
+            }
+        }
     }
 }
 
@@ -125,6 +152,14 @@
             .say-hello-btn {
                 font-size: 1.1rem;
             }
+
+            .footer-social-links-wrapper {
+                margin: 35px 0;
+    
+                .footer-social-links {
+                    font-size: 2.7rem;
+                }
+            }
         }
     }
 
@@ -156,6 +191,14 @@
                 margin-top: 40px;
                 padding: 10px 15px;
                 font-size: 0.9rem;
+            }
+
+            .footer-social-links-wrapper {
+                margin: 35px 0;
+    
+                .footer-social-links {
+                    font-size: 2.5rem;
+                }
             }
         }
     }
@@ -197,6 +240,23 @@
                 .say-hello-btn-icon {
                     margin-left: 5px;
                     font-size: 0.9rem;
+                }
+            }
+
+            .footer-social-links-wrapper {
+                margin: 25px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                a {
+                    color: inherit;
+                }
+    
+                .footer-social-links {
+                    margin: 0 2px;
+                    padding: 5px;
+                    font-size: 2rem;
                 }
             }
         }

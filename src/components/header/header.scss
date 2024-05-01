@@ -3,7 +3,7 @@
 .header {
     position: fixed;
     top: 0;
-    padding: 0 60px;
+    padding: 0 40px;
     width: 100vw;
     height: 70px;
     display: flex;
@@ -23,7 +23,7 @@
         .logo-link {
             margin-left: 10px;
             text-decoration: none;
-            color: inherit;
+            // color: yellow;
 
             .logo-link:after {
                 color: hsl(49, 37%, 94%);
@@ -34,6 +34,14 @@
                 line-height: 13px;
                 letter-spacing: 3px;
             }
+        }
+
+        .logo-link.dark {
+            color: inherit;
+        }
+
+        .logo-link.light {
+            color: hsl(49, 37%, 94%);
         }
 
         .nav-links {

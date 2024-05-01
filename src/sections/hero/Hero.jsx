@@ -1,6 +1,5 @@
 import "./hero.scss";
 import { IoDocumentText } from "react-icons/io5";
-import { BsArrowDownShort } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -10,8 +9,8 @@ const Hero = () => {
           <div className="introTexts">
             <h1>Hello! I am Godson Imiebo.</h1>
             <p className="hero-intro-text">
-              <span>Frontend developer.</span> Attention to detail and beauty
-              are just things I can't do without.
+              <span>Frontend Engineer.</span> Attention to detail and beauty are
+              just things I can't do without.
             </p>
           </div>
           <div className="btnWrapper">
