@@ -1,9 +1,29 @@
+import { useEffect, useState } from "react";
 import "./header.scss";
 import { useLocation } from "react-router-dom";
 
 const Header = () => {
-  // const logoLetters = 'gi';
+  const [lightColor, setlightColor] = useState(false);
   const location = useLocation();
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      console.log(window.scrollY);
+      console.log("width", window.innerWidth);
+
+      if (
+        (window.scrollY <= 300 && window.innerWidth <= 600) ||
+        (window.scrollY <= 630 &&
+          window.innerWidth >= 600 &&
+          window.innerWidth <= 1024) ||
+        (window.scrollY <= 834 && window.innerWidth > 1024)
+      ) {
+        setlightColor(true);
+      } else {
+        setlightColor(false);
+      }
+    });
+  }, []);
 
   return (
     <div className="header">
@@ -11,7 +31,9 @@ const Header = () => {
         <a
           href="/"
           className={`logo-link ${
-            location.pathname.includes("projects") ? "light" : "dark"
+            location.pathname.includes("projects") && lightColor
+              ? "light"
+              : "dark"
           }`}
         >
           <p className="logo-letters firstname">GODSON</p>
