@@ -8,8 +8,8 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      console.log(window.scrollY);
-      console.log("width", window.innerWidth);
+      // console.log(window.scrollY);
+      // console.log("width", window.innerWidth);
 
       if (
         (window.scrollY <= 300 && window.innerWidth <= 600) ||
