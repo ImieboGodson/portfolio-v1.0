@@ -51,10 +51,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-right">
-          <img src="assets/cross.png" alt="cross" className="hero-right-bg" />
+          <img src="assets/cross.webp" alt="cross" className="hero-right-bg" />
           <div className="image-wrapper">
             <img
-              src="assets/greekhead.png"
+              src="assets/greekhead.webp"
               alt="greek head"
               className="statue-image"
             />
