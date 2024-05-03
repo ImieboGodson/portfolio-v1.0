@@ -9,7 +9,7 @@ const AboutPage = () => {
         <div className="aboutWrapper container">
           <div className="aboutPictureWrapper">
             <img
-              src="assets/aboutimage.jpg"
+              src="assets/aboutimage.webp"
               alt="The Good Life Quote"
               srcset=""
             />
