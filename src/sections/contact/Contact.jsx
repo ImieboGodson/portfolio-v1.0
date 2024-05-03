@@ -29,7 +29,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
             className="twitter2"
-            arial-label="Link to my twitter profile"
+            aria-label="View my twitter profile"
           >
             <RiTwitterLine className="footer-social-links" />
           </a>
@@ -38,7 +38,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
             className="twitter2"
-            arial-label="Link to my github profile"
+            aria-label="View my github profile"
           >
             <RiGithubLine className="footer-social-links" />
           </a>
@@ -47,7 +47,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
             className="twitter2"
-            arial-label="Link to my linkedIn profile"
+            aria-label="View my linkedIn profile"
           >
             <RiLinkedinBoxLine className="footer-social-links" />
           </a>
@@ -56,7 +56,8 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
             className="twitter2"
-            arial-label="Link to my dev.to profile"
+            aria-label="View my dev.to profile"
+            al
           >
             <FaDev className="footer-social-links" />
           </a>
