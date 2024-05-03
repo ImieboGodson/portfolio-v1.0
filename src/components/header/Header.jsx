@@ -16,7 +16,7 @@ const Header = () => {
         (window.scrollY <= 630 &&
           window.innerWidth >= 600 &&
           window.innerWidth <= 1024) ||
-        (window.scrollY <= 834 && window.innerWidth > 1024)
+        (window.scrollY <= 700 && window.innerWidth > 1024)
       ) {
         setlightColor(true);
       } else {
